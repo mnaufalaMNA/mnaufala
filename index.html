@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>M Naufal Amrullah (@mnaufala / @mnaufala_mna) - Official Global Hub</title>
+
+  <!-- SEO & Google Indexing Meta Tags -->
+  <meta name="title" content="M Naufal Amrullah (@mnaufala / @mnaufala_mna) - Official Global Hub">
+  <meta name="description" content="Menempa ide di antara sunyi, merajut masa depan di balik baris kode & semesta logika. M Naufal Amrullah (@mnaufala / @mnaufala_mna / mnaufalaMNA / oneberry.mnaufala).">
+  <meta name="keywords" content="M Naufal Amrullah, mnaufala, mnaufala_mna, mnaufalaMNA, oneberry.mnaufala, oneberry_mna, GitHub, Google Sites, Bitly, Instagram, TikTok, Threads, Facebook, X Twitter, SkinApe">
+  <meta name="author" content="M Naufal Amrullah">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://mnaufalamna.github.io/mnaufala/">
+
+  <!-- PWA & Mobile Web App Meta Tags -->
+  <link rel="manifest" href="./manifest.json">
+  <meta name="theme-color" content="#09090b">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <!-- Schema.org JSON-LD Structured Data for Google Search Engine -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "M Naufal Amrullah",
+    "alternateName": ["mnaufala", "mnaufala_mna", "mnaufalaMNA", "oneberry.mnaufala", "oneberry_mna"],
+    "url": "https://mnaufalamna.github.io/mnaufala/",
+    "sameAs": [
+      "https://mnaufalamna.github.io/mnaufala/",
+      "https://bit.ly/m/MNaufalA",
+      "https://github.com/mnaufalaMNA",
+      "https://github.com/mnaufalaMNA/mnaufala",
+      "https://sites.google.com/view/mnaufala/mnaufala",
+      "https://sites.google.com/view/mnaufalmna/beranda",
+      "https://www.instagram.com/mnaufala_mna?igsi=aWczZndpZzNxdzRu",
+      "https://www.facebook.com/share/1HdLiJComv/",
+      "https://www.facebook.com/share/19v4QgccfR/",
+      "https://www.tiktok.com/@oneberry.mnaufala?_r=1&_t=ZS-992G1oROUyY",
+      "https://x.com/oneberry_mna",
+      "https://www.threads.com/@mnaufala_mna",
+      "https://join.skinape.com/731FMAIA"
+    ]
+  }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent !important;
+    }
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #09090b;
+      color: #f4f4f5;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 32px 16px 60px;
+      background-image:
+        radial-gradient(circle at 50% 0%, rgba(168, 85, 247, 0.25), transparent 50%),
+        radial-gradient(circle at 10% 90%, rgba(99, 102, 241, 0.15), transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(236, 72, 153, 0.15), transparent 40%);
+      background-attachment: fixed;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 560px;
+      z-index: 10;
+      position: relative;
+    }
+
+    /* Top Toolbar */
+    .toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(18, 18, 23, 0.75);
+      backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 8px 14px;
+      margin-bottom: 16px;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .lang-select {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: #e4e4e7;
+      padding: 6px 10px;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: 600;
+      cursor: pointer;
+      flex: 1 1 auto;
+      min-width: 120px;
+    }
+    .btn-audio {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(168, 85, 247, 0.15);
+      border: 1px solid rgba(168, 85, 247, 0.35);
+      color: #d8b4fe;
+      padding: 6px 14px;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+
+    /* Profile Card */
+    .profile-card {
+      text-align: center;
+      background: rgba(20, 20, 26, 0.75);
+      backdrop-filter: blur(24px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 32px;
+      padding: 36px 24px 28px;
+      margin-bottom: 20px;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+      position: relative;
+      overflow: hidden;
+    }
+    .profile-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; height: 2.5px;
+      background: linear-gradient(90deg, #ec4899, #a855f7, #6366f1, #38bdf8);
+    }
+
+    .cat-badge {
+      width: 104px;
+      height: 104px;
+      margin: 0 auto 16px;
+      border-radius: 34px;
+      padding: 2.5px;
+      background: linear-gradient(135deg, #f472b6, #a855f7, #6366f1, #38bdf8);
+      box-shadow: 0 16px 40px rgba(168, 85, 247, 0.45);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.4s ease;
+    }
+    .cat-inner {
+      width: 100%;
+      height: 100%;
+      background: #000000;
+      border-radius: 31px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    h1 {
+      font-size: 26px;
+      font-weight: 800;
+      margin-bottom: 6px;
+      letter-spacing: -0.5px;
+      color: #fff;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(168, 85, 247, 0.15);
+      border: 1px solid rgba(168, 85, 247, 0.4);
+      color: #d8b4fe;
+      padding: 4px 14px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      margin-bottom: 12px;
+    }
+    .handles {
+      font-size: 12.5px;
+      color: #a1a1aa;
+      margin-bottom: 14px;
+      font-family: monospace;
+    }
+    .poetic-bio {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-style: italic;
+      font-size: 14.5px;
+      color: #e4e4e7;
+      line-height: 1.6;
+      max-width: 460px;
+      margin: 0 auto;
+    }
+
+    /* Links Grid */
+    .links-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .link-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 18px;
+      background: rgba(24, 24, 28, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 20px;
+      text-decoration: none;
+      color: #f4f4f5;
+      transition: all 0.25s ease;
+      backdrop-filter: blur(14px);
+    }
+    .link-item:hover {
+      transform: translateY(-2px);
+      border-color: rgba(168, 85, 247, 0.6);
+      background: rgba(35, 35, 42, 0.95);
+      box-shadow: 0 14px 28px -10px rgba(168, 85, 247, 0.35);
+    }
+    .link-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 3px;
+      flex-wrap: wrap;
+    }
+    .link-info h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #fff;
+    }
+    .tag-badge {
+      font-size: 9px;
+      padding: 2px 7px;
+      border-radius: 6px;
+      background: rgba(168, 85, 247, 0.25);
+      color: #e9d5ff;
+      border: 1px solid rgba(168, 85, 247, 0.4);
+      font-weight: 700;
+    }
+    .link-info p {
+      font-size: 11px;
+      color: #a1a1aa;
+    }
+    .arrow {
+      color: #c084fc;
+      font-size: 16px;
+      font-weight: bold;
+      margin-left: 8px;
+      flex-shrink: 0;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 36px;
+      font-size: 12px;
+      color: #a1a1aa;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Top Toolbar -->
+    <div class="toolbar">
+      <select id="langSelector" class="lang-select">
+        <option value="id">🇮🇩 Bahasa Indonesia</option>
+        <option value="en">🌐 English (US)</option>
+        <option value="ja">🇯🇵 日本語</option>
+        <option value="ar">🇸🇦 العربية</option>
+        <option value="es">🇪🇸 Español</option>
+        <option value="fr">🇫🇷 Français</option>
+        <option value="de">🇩🇪 Deutsch</option>
+        <option value="ko">🇰🇷 한국어</option>
+        <option value="zh">🇨🇳 中文</option>
+        <option value="ru">🇷🇺 Русский</option>
+        <option value="pt">🇧🇷 Português</option>
+        <option value="it">🇮🇹 Italiano</option>
+        <option value="tr">🇹🇷 Türkçe</option>
+      </select>
+
+      <button id="audioBtn" class="btn-audio" onclick="toggleAudio()">
+        🌸 <span id="audioStatus">Anime Sound ON</span>
+      </button>
+    </div>
+
+    <!-- Profile Header -->
+    <header class="profile-card">
+      <div class="cat-badge">
+        <div class="cat-inner">
+          <svg width="74" height="74" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g fill="#ffffff">
+              <path d="M 60 17 C 52 17, 46 19.5, 42 24 C 39.5 21.5, 35 17.5, 32 17.5 C 27.5 17.5, 26 23, 29 29.5 C 24.5 33.5, 22.5 39.5, 22.5 45.5 C 22.5 59.5, 35.5 71, 60 71 C 84.5 71, 97.5 59.5, 97.5 45.5 C 97.5 39.5, 95.5 33.5, 91 29.5 C 94 23, 92.5 17.5, 88 17.5 C 85 17.5, 80.5 21.5, 78 24 C 74 19.5, 68 17, 60 17 Z" />
+              <path d="M 25 41 C 18 39.5, 12 37.5, 7 36 C 5.5 35.5, 4.5 37.5, 6 38.5 C 11 41, 18 43, 24 44 Z M 23 48 C 16 48, 10 47.5, 5 47 C 3.5 47, 3.5 49, 5 49.5 C 10 50, 16 50, 23 49.5 Z M 25 55 C 18 57, 12 59.5, 7 61 C 5.5 61.5, 6.5 63.5, 8 63 C 13 61.5, 19 59, 26 56.5 Z" />
+              <path d="M 95 41 C 102 39.5, 108 37.5, 113 36 C 114.5 35.5, 115.5 37.5, 114 38.5 C 109 41, 102 43, 96 44 Z M 97 48 C 104 48, 110 47.5, 115 47 C 116.5 47, 116.5 49, 115 49.5 C 110 50, 104 50, 97 49.5 Z M 95 55 C 102 57, 108 59.5, 113 61 C 114.5 61.5, 113.5 63.5, 112 63 C 107 61.5, 101 59, 94 56.5 Z" />
+              <path d="M 60 76.5 C 43 76.5, 29.5 90, 29.5 106.5 C 29.5 113, 31.5 118, 36 121 C 39.5 123, 44 122, 45.5 118 C 47 112.5, 45 107, 40.5 104 C 38 102.5, 40.5 98.5, 44 98.5 C 48.5 98.5, 54 100.5, 56.5 102.5 C 60 106, 60 110.5, 59 114 C 58 117.5, 55.5 121, 51.5 123 C 54.5 124, 57.5 124.5, 60 124.5 C 77.5 124.5, 91.5 110.5, 91.5 93.5 C 91.5 76.5, 77.5 76.5, 60 76.5 Z" />
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <h1>M Naufal Amrullah</h1>
+      <div class="badge">✦ OFFICIAL GLOBAL HUB</div>
+      <div class="handles">@mnaufala • @mnaufala_mna • mnaufalaMNA • oneberry.mnaufala</div>
+      <p id="poeticBio" class="poetic-bio">"Menempa ide di antara sunyi, merajut masa depan di balik baris kode & semesta logika."</p>
+    </header>
+
+    <!-- Links List -->
+    <main class="links-grid">
+      <a href="https://github.com/mnaufalaMNA" target="_blank" rel="noopener" class="link-item">
+        <div class="link-info">
+          <div class="link-header">
+            <h3>GitHub Profile (mnaufalaMNA)</h3>
+            <span class="tag-badge">CORE REPO</span>
+          </div>
+          <p>github.com/mnaufalaMNA • Master Repositories</p>
+        </div>
+        <div class="arrow">→</div>
+      </a>
+
+      <a href="https://github.com/mnaufalaMNA/mnaufala" target="_blank" rel="noopener" class="link-item">
+        <div class="link-info">
+          <div class="link-header">
+            <h3>GitHub Repository (mnaufala)</h3>
+            <span class="tag-badge">SOURCE CODE</span>
+          </div>
+          <p>github.com/mnaufalaMNA/mnaufala • Public Codebase</p>
+        </div>
+        <div class="arrow">→</div>
+      </a>
+
+      <a href="https://mnaufalamna.github.io/mnaufala/" target="_blank" rel="noopener" class="link-item">
+        <div class="link-info">
+          <div class="link-header">
+            <h3>Official Web Ecosystem</h3>
+            <span class="tag-badge" style="background:rgba(16,185,129,0.25); color:#6ee7b7; border-color:rgba(16,185,129,0.4);">PRIMARY WEB</span>
+          </div>
+          <p>mnaufalamna.github.io/mnaufala • Direct Global Portfolio</p>
+        </div>
+        <div class="arrow">→</div>
+      </a>
+
+      <a href="https://bit.ly/m/MNaufalA" target="_blank" rel="noopener" class="link-item">
+        <div class="link-info">
+          <div class="link-header">
+            <h3>Bitly Global Bio Link Hub</h3>
+            <span class="tag-badge" style="background:rgba(245,158,11,0.25); color:#fde68a; border-color:rgba(245,158,11,0.4);">SHORTLINK</span>
+          </div>
+          <p>bit.ly/m/MNaufalA • Universal Bio Gateway</p>
+        </div>
+        <div class="arrow">→</div>
+      </a>
+
+      <a href="https://sites.google.com/view/mnaufala/mnaufala" target="_blank" rel="noopener" class="link-item">
+        <div class="link-info">
+          <div class="link-header">
+            <h3>Google Sites Portfolio (mnaufala)</h3>
+            <span class="tag-badge" style="background:rgba(59,130,246,0.25); color:#93c5fd; border-color:rgba(59,130,246,0.4);">GOOGLE SITES</span>
+          </div>
+          <p>sites.google.com/view/mnaufala/mnaufala</p>
+        </div>
+        <div class="arrow">→</div>
+      </a>
+
+      <a href="https://sites.google.com/view/mnaufalmna/beranda" target="_blank" rel="noopener" class="link-item">
+        <div class="link-info">
+          <div class="link-header">
+            <h3>Google Sites Beranda (mnaufalmna)</h3>
+            <span class="tag-badge" style="background:rgba(99,102,241,0.25); color:#c7d2fe; border-color:rgba(99,102,241,0.4);">GOOGLE BERANDA</span>
+          </div>
+          <p>sites.google.com/view/mnaufalmna/beranda</p>
+        </div>
+        <div class="arrow">→</div>
+      </a>
+
+      <a href="https://www.instagram.com/mnaufala_mna?igsi=aWczZndpZzNxdzRu" target="_blank" rel="noopener" class="link-item">
+        <div class="link-info">
+          <div class="link-header">
+            <h3>Instagram Official Profile</h3>
+            <span class="tag-badge" style="background:rgba(236,72,153,0.25); color:#fbcfe8; border-color:rgba(236,72,153,0.4);">@mnaufala_mna</span>
+          </div>
+          <p>instagram.com/mnaufala_mna • Stories & Moments</p>
+        </div>
+        <div class="arrow">→</div>
+      </a>
+
+      <a href="https://www.tiktok.com/@oneberry.mnaufala?_r=1&_t=ZS-992G1oROUyY" target="_blank" rel="noopener" class="link-item">
+        <div class="link-info">
+          <div class="link-header">
+            <h3>TikTok Official Channel</h3>
+            <span class="tag-badge" style="background:rgba(6,182,212,0.25); color:#a5f3fc; border-color:rgba(6,182,212,0.4);">@oneberry.mnaufala</span>
+          </div>
+          <p>tiktok.com/@oneberry.mnaufala • Tech & Creative Shorts</p>
+        </div>
+        <div class="arrow">→</div>
+      </a>
+
+      <a href="https://www.threads.com/@mnaufala_mna" target="_blank" rel="noopener" class="link-item">
+        <div class="link-info">
+          <div class="link-header">
+            <h3>Threads Meta (@mnaufala_mna)</h3>
+            <span class="tag-badge">THREADS</span>
+          </div>
+          <p>threads.net/@mnaufala_mna • Discussions</p>
+        </div>
+        <div class="arrow">→</div>
+      </a>
+
+      <a href="https://x.com/oneberry_mna" target="_blank" rel="noopener" class="link-item">
+        <div class="link-info">
+          <div class="link-header">
+            <h3>X (Twitter) @oneberry_mna</h3>
+            <span class="tag-badge">X TWITTER</span>
+          </div>
+          <p>x.com/oneberry_mna • Tech Insights</p>
+        </div>
+        <div class="arrow">→</div>
+      </a>
+
+      <a href="https://www.facebook.com/share/1HdLiJComv/" target="_blank" rel="noopener" class="link-item">
+        <div class="link-info">
+          <div class="link-header">
+            <h3>Facebook Channel 1</h3>
+            <span class="tag-badge">FACEBOOK</span>
+          </div>
+          <p>facebook.com/share/1HdLiJComv</p>
+        </div>
+        <div class="arrow">→</div>
+      </a>
+
+      <a href="https://www.facebook.com/share/19v4QgccfR/" target="_blank" rel="noopener" class="link-item">
+        <div class="link-info">
+          <div class="link-header">
+            <h3>Facebook Channel 2</h3>
+            <span class="tag-badge">COMMUNITY</span>
+          </div>
+          <p>facebook.com/share/19v4QgccfR</p>
+        </div>
+        <div class="arrow">→</div>
+      </a>
+
+      <a href="https://join.skinape.com/731FMAIA" target="_blank" rel="noopener" class="link-item">
+        <div class="link-info">
+          <div class="link-header">
+            <h3>SkinApe Rewards (Code: 731FMAIA)</h3>
+            <span class="tag-badge" style="background:rgba(244,63,94,0.25); color:#fecdd3; border-color:rgba(244,63,94,0.4);">VIP REWARDS</span>
+          </div>
+          <p>join.skinape.com/731FMAIA • Exclusive Invite Code</p>
+        </div>
+        <div class="arrow">→</div>
+      </a>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      ✨ <span>Diukir dengan dedikasi & gairah tanpa batas</span> • Dari imajinasi menuju keabadian.<br>
+      © 2026 M Naufal Amrullah • Official Ecosystem
+    </footer>
+  </div>
+
+  <script>
+    const bioTranslations = {
+      id: '"Menempa ide di antara sunyi, merajut masa depan di balik baris kode & semesta logika."',
+      en: '"Forging ideas amidst the silence, weaving the future behind lines of code & the universe of logic."',
+      ja: '「静寂の中でアイデアを鍛え、コードの行と論理の宇宙の背後に未来を織りなす。」',
+      ar: '"صياغة الأفكار بين ثنايا الصمت، ونسج المستقبل خلف سطور البرمجة وعوالم المنطق."',
+      es: '"Forjando ideas en medio del silencio, tejiendo el futuro tras líneas de código y el universo de la lógica."',
+      fr: '"Forger des idées au milieu du silence, tisser l\'avenir derrière les lignes de code et l\'univers de la logique."',
+      de: '„Ideen in der Stille schmieden, die Zukunft hinter Codezeilen und dem Universum der Logik weben.“',
+      ko: '"침묵 속에서 아이디어를 벼리고, 코드 한 줄과 논리의 우주 뒤에서 미래를 엮어냅니다."',
+      zh: '“在静寂中锤炼灵感，在代码行与逻辑宇宙后编织未来。”',
+      ru: '«Ковать идеи среди тишины, созидая будущее за строками кода и вселенной логики.»',
+      pt: '"Forjando ideias no silêncio, tecendo o futuro por trás de linhas de código e do universo da lógica."',
+      it: '"Forgiando idee nel silenzio, tessendo il futuro dietro le righe di codice e l\'universo della logica."',
+      tr: '"Sessizliğin ortasında fikirler döverek, kod satırlarının ve mantık evreninin ardında geleceği dokuyoruz."'
+    };
+
+    function changeLanguage(lang) {
+      if (bioTranslations[lang]) {
+        document.getElementById('poeticBio').innerText = bioTranslations[lang];
+      }
+    }
+
+    let audioCtx = null;
+    let isPlaying = false;
+    let timerId = null;
+
+    function toggleAudio() {
+      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+
+      isPlaying = !isPlaying;
+      const statusEl = document.getElementById('audioStatus');
+      if (isPlaying) {
+        statusEl.innerText = 'Anime Sound ON 🌸';
+        playAnimeNote();
+        timerId = setInterval(playAnimeNote, 3200);
+      } else {
+        statusEl.innerText = 'Anime Sound OFF';
+        clearInterval(timerId);
+      }
+    }
+
+    function playAnimeNote() {
+      if (!audioCtx || !isPlaying) return;
+      const freqs = [261.63, 293.66, 329.63, 392.00, 440.00, 523.25, 659.25];
+      const root = freqs[Math.floor(Math.random() * (freqs.length - 2))];
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      const now = audioCtx.currentTime;
+
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(root, now);
+      gain.gain.setValueAtTime(0.001, now);
+      gain.gain.exponentialRampToValueAtTime(0.07, now + 1.2);
+      gain.gain.exponentialRampToValueAtTime(0.0001, now + 3.4);
+
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+      osc.start(now);
+      osc.stop(now + 3.5);
+    }
+
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js'));
+    }
+
+    document.getElementById('langSelector').addEventListener('change', (e) => changeLanguage(e.target.value));
+  </script>
+</body>
+    </html>
