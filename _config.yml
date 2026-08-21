@@ -1,0 +1,8 @@
+theme: null
+plugins: []
+include:
+  - ".nojekyll"
+  - "manifest.json"
+  - "sw.js"
+  - "robots.txt"
+  - "sitemap.xml"
