@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://mnaufalamna.github.io/mnaufala/</loc>
     <lastmod>2026-08-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://mnaufalamna.github.io/mnaufala/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mnaufalamna.github.io/mnaufala/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mnaufalamna.github.io/mnaufala/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://mnaufalamna.github.io/mnaufala/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://mnaufalamna.github.io/mnaufala/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mnaufalamna.github.io/mnaufala/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://mnaufalamna.github.io/mnaufala/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mnaufalamna.github.io/mnaufala/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://mnaufalamna.github.io/mnaufala/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://mnaufalamna.github.io/mnaufala/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mnaufalamna.github.io/mnaufala/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://mnaufalamna.github.io/mnaufala/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mnaufalamna.github.io/mnaufala/" />
   </url>
   <url>
     <loc>https://bit.ly/m/MNaufalA</loc>
@@ -13,5 +27,17 @@
   <url>
     <loc>https://github.com/mnaufalaMNA</loc>
     <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://github.com/mnaufalaMNA/mnaufala</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://sites.google.com/view/mnaufala/mnaufala</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://sites.google.com/view/mnaufalmna/beranda</loc>
+    <priority>0.80</priority>
   </url>
 </urlset>
