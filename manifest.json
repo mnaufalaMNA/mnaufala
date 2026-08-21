@@ -1,10 +1,24 @@
 {
   "name": "M Naufal Amrullah Official Hub",
   "short_name": "MNaufalA",
-  "description": "Official Global Ecosystem & Hub for M Naufal Amrullah",
+  "description": "Menempa ide di antara sunyi, merajut masa depan di balik baris kode & semesta logika. M Naufal Amrullah Official Ecosystem.",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#09090b",
   "theme_color": "#09090b",
-  "orientation": "portrait"
+  "orientation": "portrait",
+  "categories": ["social", "portfolio", "technology", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Official GitHub",
+      "url": "https://github.com/mnaufalaMNA/mnaufala",
+      "description": "Buka codebase repositori resmi"
+    },
+    {
+      "name": "Bitly Universal Hub",
+      "url": "https://bit.ly/m/MNaufalA",
+      "description": "Universal Gateway"
+    }
+  ]
 }
