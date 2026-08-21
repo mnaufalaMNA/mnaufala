@@ -1,4 +1,39 @@
+# Robots.txt for M Naufal Amrullah Official Ecosystem
+# Global Search Engines & Indexer Permissions
+
 User-agent: *
+Allow: /
+
+# Googlebot
+User-agent: Googlebot
+Allow: /
+
+# Googlebot Image & Mobile
+User-agent: Googlebot-Image
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Bingbot & MSN
+User-agent: Bingbot
+User-agent: msnbot
+Allow: /
+
+# Applebot (Siri & Apple Search)
+User-agent: Applebot
+Allow: /
+
+# Baidu, Yandex, DuckDuckGo, Yahoo
+User-agent: Baiduspider
+User-agent: YandexBot
+User-agent: DuckDuckBot
+User-agent: Slurp
+Allow: /
+
+# Social Crawlers
+User-agent: facebookexternalhit
+User-agent: Twitterbot
+User-agent: Pinterest
+User-agent: LinkedInBot
 Allow: /
 
 Sitemap: https://mnaufalamna.github.io/mnaufala/sitemap.xml
