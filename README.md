@@ -1,56 +1,40 @@
-<div align="center">
+# 🌟 M Naufal Amrullah (@mnaufala / @mnaufala_mna) - Official Global Hub
 
-# 🌌 M Naufal Amrullah
-### *Official Global Ecosystem & Multi-Channel Gateway*
+> *"Menempa ide di antara sunyi, merajut masa depan di balik baris kode & semesta logika."*
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=700&size=20&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&width=500&lines=%22Menempa+ide+di+antara+sunyi%22;%22Merajut+masa+depan+di+balik+kode%22;%22Semesta+logika+%26+imajinasi+abadi%22" alt="Typing SVG" />
-</p>
-
-[![Website Live](https://img.shields.io/badge/Official_Web-Live_Pages-10B981?style=for-the-badge&logo=githubpages&logoColor=white)](https://mnaufalamna.github.io/mnaufala/)
-[![Universal Gateway](https://img.shields.io/badge/Bitly-Universal_Hub-F59E0B?style=for-the-badge&logo=bitly&logoColor=white)](https://bit.ly/m/MNaufalA)
-[![GitHub Profile](https://img.shields.io/badge/GitHub-mnaufalaMNA-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mnaufalaMNA)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](./LICENSE)
-
-<br/>
-
-**Official Handles & Identifiers:**  
-`@mnaufala` • `@mnaufala_mna` • `mnaufalaMNA` • `oneberry.mnaufala` • `oneberry_mna`
-
-</div>
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Online-success?style=for-the-badge&logo=github)](https://mnaufalamna.github.io/mnaufala/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+[![PWA](https://img.shields.io/badge/PWA-Ready-orange?style=for-the-badge)](manifest.json)
 
 ---
 
-## 🌐 Direktori Tautan Resmi (Official Ecosystem Links)
+## 🔗 Daftar 15 Tautan Resmi Terverifikasi (Official Verified Directory)
 
-| Platform | Kategori | URL Resmi | Status |
-| :--- | :--- | :--- | :---: |
-| 🌐 **Official Web** | *Primary Web* | [mnaufalamna.github.io/mnaufala](https://mnaufalamna.github.io/mnaufala/) | 🟢 Active |
-| 🔗 **Bitly Gateway** | *Universal Bio* | [bit.ly/m/MNaufalA](https://bit.ly/m/MNaufalA) | 🟢 Active |
-| 💻 **GitHub Master** | *Core Repo* | [github.com/mnaufalaMNA](https://github.com/mnaufalaMNA) | 🟢 Active |
-| 📦 **GitHub Codebase** | *Source Code* | [github.com/mnaufalaMNA/mnaufala](https://github.com/mnaufalaMNA/mnaufala) | 🟢 Active |
-| 📑 **Google Sites 1** | *Portfolio* | [sites.google.com/view/mnaufala/mnaufala](https://sites.google.com/view/mnaufala/mnaufala) | 🟢 Active |
-| 📑 **Google Sites 2** | *Beranda Bio* | [sites.google.com/view/mnaufalmna/beranda](https://sites.google.com/view/mnaufalmna/beranda) | 🟢 Active |
-| 📸 **Instagram** | *Social* | [@mnaufala_mna](https://www.instagram.com/mnaufala_mna?igsi=aWczZndpZzNxdzRu) | 🟢 Active |
-| 🎵 **TikTok** | *Media* | [@oneberry.mnaufala](https://www.tiktok.com/@oneberry.mnaufala?_r=1&_t=ZS-992G1oROUyY) | 🟢 Active |
-| 🧵 **Threads** | *Discussions* | [@mnaufala_mna](https://www.threads.com/@mnaufala_mna) | 🟢 Active |
-| 🐦 **X (Twitter)** | *Broadcasts* | [@oneberry_mna](https://x.com/oneberry_mna) | 🟢 Active |
-| 👥 **Facebook 1** | *Community* | [Profile 1](https://www.facebook.com/share/1HdLiJComv/) | 🟢 Active |
-| 👥 **Facebook 2** | *Community* | [Profile 2](https://www.facebook.com/share/19v4QgccfR/) | 🟢 Active |
-| 🎁 **SkinApe VIP** | *Rewards* | [Code: 731FMAIA](https://join.skinape.com/731FMAIA) | 🟢 Active |
-
----
-
-## 🛠️ Fitur & Arsitektur Sistem
-
-- 📱 **Progressive Web App (PWA)**: Standalone display, offline caching via `sw.js`.
-- ⚡ **Multi-Bahasa (13 Bahasa)**: Bahasa Indonesia, English, 日本語, العربية, Español, Français, Deutsch, 한국어, 中文, Русский, Português, Italiano, Türkçe.
-- 🎵 **Anime Chime Synthesizer**: Web Audio API Sound Generator tanpa dependensi eksternal.
-- 🔍 **SEO & Google Structured Data**: Schema.org Person JSON-LD, OpenGraph, Twitter Cards, `sitemap.xml`, `robots.txt`.
-- 🛡️ **Standar Keamanan Open Source**: MIT License, Security Policy, Contributing Guidelines, Code of Conduct.
+| No | Platform / Layanan | Tautan Resmi & Akses Langsung |
+|---|---|---|
+| 1 | **YouTube Official** | [youtube.com/@mnaufalamna](https://www.youtube.com/@mnaufalamna) |
+| 2 | **Roblox Official Profile** | [roblox.com/share (Official Profile)](https://www.roblox.com/share?code=0ed2af83dfa9b540bbba78010f86da81&type=Profile&source=ProfileShare&stamp=1787394507909) |
+| 3 | **GitHub Profile** | [github.com/mnaufalaMNA](https://github.com/mnaufalaMNA) |
+| 4 | **GitHub Repository** | [github.com/mnaufalaMNA/mnaufala](https://github.com/mnaufalaMNA/mnaufala) |
+| 5 | **Official Web Ecosystem** | [mnaufalamna.github.io/mnaufala/](https://mnaufalamna.github.io/mnaufala/) |
+| 6 | **Bitly Universal Gateway** | [bit.ly/m/MNaufalA](https://bit.ly/m/MNaufalA) |
+| 7 | **Google Sites Portfolio** | [sites.google.com/view/mnaufala/mnaufala](https://sites.google.com/view/mnaufala/mnaufala) |
+| 8 | **Google Sites Beranda** | [sites.google.com/view/mnaufalmna/beranda](https://sites.google.com/view/mnaufalmna/beranda) |
+| 9 | **Instagram Official** | [instagram.com/mnaufala_mna](https://www.instagram.com/mnaufala_mna?igsi=aWczZndpZzNxdzRu) |
+| 10 | **Facebook Official 1** | [facebook.com/share/1HdLiJComv](https://www.facebook.com/share/1HdLiJComv/) |
+| 11 | **Facebook Channel 2** | [facebook.com/share/19v4QgccfR](https://www.facebook.com/share/19v4QgccfR/) |
+| 12 | **TikTok Official** | [tiktok.com/@oneberry.mnaufala](https://www.tiktok.com/@oneberry.mnaufala?_r=1&_t=ZS-992G1oROUyY) |
+| 13 | **X (Twitter)** | [x.com/oneberry_mna](https://x.com/oneberry_mna) |
+| 14 | **Threads Meta** | [threads.com/@mnaufala_mna](https://www.threads.com/@mnaufala_mna) |
+| 15 | **SkinApe Gaming Rewards** | [join.skinape.com/731FMAIA](https://join.skinape.com/731FMAIA) (Kode VIP: `731FMAIA`) |
 
 ---
 
-<div align="center">
-  <sub>© 2026 M Naufal Amrullah • Diukir dengan dedikasi & gairah tanpa batas</sub>
-</div>
+## ⚡ Fitur Utama Ekosistem
+- **PWA & Offline Ready**: Mendukung instalasi aplikasi di smartphone & tablet.
+- **Audio Synthesizer**: Musik ambient multi-genre (Anime, Lo-Fi, Cyber, Zen).
+- **13 Bahasa**: Terjemahan otomatis instan lintas bahasa dunia.
+- **Ultra Cepat**: Dioptimalkan untuk 60 FPS bebas lag.
+
+---
+© 2026 M Naufal Amrullah. Seluruh Hak Cipta Dilindungi.
