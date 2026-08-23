@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>404 - Halaman Tidak Ditemukan | M Naufal Amrullah</title>
-  <meta http-equiv="refresh" content="3;url=./index.html">
+  <title>404 - Mengalihkan ke Beranda | M Naufal Amrullah</title>
+  <meta http-equiv="refresh" content="1;url=./index.html">
+  <meta name="robots" content="noindex, follow">
   <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       background: #09090b;
       color: #f4f4f5;
@@ -14,39 +16,58 @@
       align-items: center;
       justify-content: center;
       min-height: 100vh;
-      margin: 0;
       text-align: center;
       padding: 20px;
     }
-    .box {
-      background: rgba(18, 18, 26, 0.85);
-      border: 1px solid rgba(168, 85, 247, 0.4);
+    .card {
+      background: rgba(18, 18, 26, 0.95);
+      border: 1px solid rgba(168, 85, 247, 0.5);
       padding: 40px 30px;
       border-radius: 24px;
-      max-width: 420px;
-      box-shadow: 0 20px 40px rgba(0,0,0,0.8);
+      max-width: 440px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8), 0 0 30px rgba(168, 85, 247, 0.2);
     }
-    h1 { font-size: 56px; margin: 0 0 10px; color: #a855f7; }
-    p { color: #a1a1aa; font-size: 14px; margin-bottom: 24px; line-height: 1.6; }
+    .badge {
+      display: inline-block;
+      padding: 6px 14px;
+      background: rgba(168, 85, 247, 0.15);
+      color: #c084fc;
+      border: 1px solid rgba(168, 85, 247, 0.4);
+      border-radius: 9999px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+    h1 { font-size: 56px; color: #a855f7; margin-bottom: 8px; font-weight: 800; }
+    h2 { font-size: 20px; margin-bottom: 12px; }
+    p { color: #a1a1aa; font-size: 13px; margin-bottom: 24px; line-height: 1.6; }
     a {
       display: inline-block;
-      background: #8b5cf6;
+      background: linear-gradient(135deg, #a855f7, #6366f1);
       color: #fff;
       text-decoration: none;
-      padding: 12px 24px;
+      padding: 12px 28px;
       border-radius: 14px;
       font-weight: 700;
-      transition: background 0.2s;
+      font-size: 14px;
+      box-shadow: 0 4px 15px rgba(168, 85, 247, 0.35);
+      transition: transform 0.2s, box-shadow 0.2s;
     }
-    a:hover { background: #7c3aed; }
+    a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5);
+    }
   </style>
 </head>
 <body>
-  <div class="box">
+  <div class="card">
+    <div class="badge">🌐 Global Auto Redirect</div>
     <h1>404</h1>
-    <h2>Halaman Tidak Ditemukan</h2>
-    <p>Mengarahkan Anda kembali ke Portal Utama M Naufal Amrullah dalam 3 detik...</p>
-    <a href="./index.html">Kembali ke Beranda</a>
+    <h2>Mengalihkan ke Portal Resmi</h2>
+    <p>Halaman sedang dialihkan otomatis kembali ke ekosistem portal utama M Naufal Amrullah...</p>
+    <a href="./index.html">Buka Beranda Sekarang</a>
   </div>
 </body>
 </html>
