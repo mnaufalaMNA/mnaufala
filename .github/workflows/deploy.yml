@@ -3,6 +3,9 @@ name: Deploy Ecosystem to GitHub Pages & Production
 on:
   push:
     branches:
+      - mnaufala
+      - mnaufala_mna
+      - mnaufalamna
       - main
       - master
   workflow_dispatch:
