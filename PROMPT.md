@@ -2,7 +2,12 @@
 
 Prompt cetak biru instruksi resmi untuk M Naufal Amrullah (@mnaufala / @mnaufala_mna):
 
-1. Daftar 15 Tautan Resmi Terverifikasi:
+1. Profil & Identitas Resmi:
+   - Nama Lengkap: M Naufal Amrullah
+   - User Handles: @mnaufala • @mnaufala_mna • mnaufalaMNA • oneberry.mnaufala
+   - Branches: mnaufala, mnaufala_mna, mnaufalamna, main
+
+2. Daftar 15 Tautan Resmi Terverifikasi:
    - YouTube: https://www.youtube.com/@mnaufalamna
    - Roblox Official Profile: https://www.roblox.com/share?code=0ed2af83dfa9b540bbba78010f86da81&type=Profile&source=ProfileShare&stamp=1787394507909
    - GitHub Developer Profile: https://github.com/mnaufalaMNA
@@ -19,7 +24,7 @@ Prompt cetak biru instruksi resmi untuk M Naufal Amrullah (@mnaufala / @mnaufala
    - Threads Meta: https://www.threads.com/@mnaufala_mna
    - SkinApe VIP Rewards: https://join.skinape.com/731FMAIA (VIP Code: 731FMAIA)
 
-2. Fitur UI/UX, Audio & Keamanan:
+3. Fitur UI/UX, Audio & Keamanan:
    - 13 Bahasa Dunia (ID, EN, JA, AR, ES, FR, DE, KO, ZH, RU, PT, IT, TR).
    - Web Audio API Synthesizer (6 Genre Musik, Status Awal Buka OFF).
    - 5 Pilihan Partikel Canvas 60 FPS (Sakura, Stars, Matrix, Bubbles, Snow).
