@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.mnaufala.hub",
+      "sha256_cert_fingerprints": [
+        "14:6D:E9:01:F8:85:7E:02:CE:0E:64:28:7E:69:8A:CE:06:77:42:93:45:B6:76:7F:48:94:4B:CF:82:9F:87:4D"
+      ]
+    }
+  }
+]
