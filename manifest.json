@@ -1,8 +1,8 @@
 {
   "id": "com.mnaufala.hub",
-  "name": "M Naufal Amrullah",
+  "name": "M Naufal Amrullah - Official Ecosystem Hub",
   "short_name": "MNaufalA",
-  "description": "Official Global Ecosystem & Central Gateway Hub M Naufal Amrullah",
+  "description": "Menempa ide di antara sunyi, merajut masa depan di balik baris kode & semesta logika. Portal Resmi, Audio Synthesizer, Direktori Gateway, dan Ekosistem Digital Global.",
   "start_url": "https://mnaufalamna.github.io/mnaufala/",
   "scope": "https://mnaufalamna.github.io/mnaufala/",
   "display": "standalone",
@@ -10,22 +10,22 @@
   "background_color": "#0a0f1d",
   "theme_color": "#8b5cf6",
   "lang": "id",
-  "categories": ["utilities", "portfolio", "social"],
+  "categories": ["utilities", "portfolio", "social", "music", "entertainment"],
   "icons": [
     {
-      "src": "https://avatars.githubusercontent.com/u/190825316?v=4&s=192",
+      "src": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=192&h=192&q=80",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://avatars.githubusercontent.com/u/190825316?v=4&s=512",
+      "src": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=512&h=512&q=80",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://avatars.githubusercontent.com/u/190825316?v=4&s=512",
+      "src": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=512&h=512&q=80",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
@@ -33,18 +33,18 @@
   ],
   "screenshots": [
     {
-      "src": "https://avatars.githubusercontent.com/u/190825316?v=4&s=1024",
-      "sizes": "1024x1024",
+      "src": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1080&h=1920&q=80",
+      "sizes": "1080x1920",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "M Naufal Amrullah Portal"
+      "label": "M Naufal Amrullah Mobile Portal"
     },
     {
-      "src": "https://avatars.githubusercontent.com/u/190825316?v=4&s=1024",
-      "sizes": "1024x1024",
+      "src": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1920&h=1080&q=80",
+      "sizes": "1920x1080",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "M Naufal Amrullah Hub"
+      "label": "M Naufal Amrullah Ecosystem Dashboard"
     }
   ]
 }
