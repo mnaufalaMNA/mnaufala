@@ -1,11 +1,13 @@
 {
   "name": "M Naufal Amrullah Official Ecosystem",
-  "short_name": "MNaufalA Hub",
-  "description": "Menempa ide di antara sunyi, merajut masa depan di balik baris kode & semesta logika.",
+  "short_name": "MNaufalA",
+  "id": "/mnaufala/",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#09090b",
   "theme_color": "#09090b",
+  "description": "Menempa ide di antara sunyi, merajut masa depan di balik baris kode & semesta logika.",
   "orientation": "portrait-primary",
   "icons": [
     {
