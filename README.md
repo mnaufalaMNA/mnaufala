@@ -34,26 +34,12 @@
 
 <br/>
 
-<!-- Profile View Counter Badge -->
-<p align="center">
-  <a href="https://github.com/mnaufalaMNA">
-    <img src="https://komarev.com/ghpvc/?username=mnaufalaMNA&label=ECOSYSTEM+VISITORS&color=8b5cf6&style=flat-square" alt="Visitors Counter" />
-  </a>
-</p>
-
 <!-- Official Handles Badges -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Handle-@mnaufala-1e1b4b?style=flat-square&logo=tag&logoColor=a855f7" alt="Handle 1"/>
-  <img src="https://img.shields.io/badge/Handle-@mnaufala__mna-1e1b4b?style=flat-square&logo=tag&logoColor=a855f7" alt="Handle 2"/>
-  <img src="https://img.shields.io/badge/Handle-mnaufalaMNA-1e1b4b?style=flat-square&logo=github&logoColor=a855f7" alt="Handle 3"/>
-  <img src="https://img.shields.io/badge/Handle-@oneberry.mnaufala-1e1b4b?style=flat-square&logo=tiktok&logoColor=a855f7" alt="Handle 4"/>
-</p>
-
-<br/>
-
-<!-- Ultra-Reliable GitHub Dynamic Activity Card -->
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=mnaufalaMNA&theme=tokyonight&hide_border=true&background=0D1117&ring=A855F7&fire=EC4899&currStreakLabel=A855F7&sideNums=38BDF8&sideLabels=94A3B8&dates=64748B" alt="GitHub Streak Stats" />
+  <img src="https://img.shields.io/badge/Official%20ID-@mnaufala-1e1b4b?style=for-the-badge&logo=tag&logoColor=a855f7" alt="Handle 1"/>
+  <img src="https://img.shields.io/badge/Instagram-@mnaufala__mna-831843?style=for-the-badge&logo=instagram&logoColor=ec4899" alt="Handle 2"/>
+  <img src="https://img.shields.io/badge/GitHub-mnaufalaMNA-022c22?style=for-the-badge&logo=github&logoColor=34d399" alt="Handle 3"/>
+  <img src="https://img.shields.io/badge/TikTok-@oneberry.mnaufala-1e1b4b?style=for-the-badge&logo=tiktok&logoColor=38bdf8" alt="Handle 4"/>
 </p>
 
 </div>
