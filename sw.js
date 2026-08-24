@@ -1,19 +1,16 @@
-const CACHE_NAME = 'mnaufala-global-v2026';
-const ASSETS_TO_CACHE = [
+const CACHE_NAME = 'mnaufala-cache-v2026';
+const ASSETS = [
   './',
   './index.html',
+  './404.html',
   './manifest.json',
   './robots.txt',
-  './sitemap.xml',
-  './404.html',
-  './README.md'
+  './sitemap.xml'
 ];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(ASSETS_TO_CACHE);
-    })
+    caches.open(CACHE_NAME).then((cache) => cache.addAll(ASSETS))
   );
   self.skipWaiting();
 });
@@ -35,24 +32,6 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
   event.respondWith(
-    caches.match(event.request).then((cachedResponse) => {
-      if (cachedResponse) {
-        return cachedResponse;
-      }
-      return fetch(event.request).then((networkResponse) => {
-        if (!networkResponse || networkResponse.status !== 200 || networkResponse.type !== 'basic') {
-          return networkResponse;
-        }
-        const responseToCache = networkResponse.clone();
-        caches.open(CACHE_NAME).then((cache) => {
-          cache.put(event.request, responseToCache);
-        });
-        return networkResponse;
-      }).catch(() => {
-        if (event.request.mode === 'navigate') {
-          return caches.match('./index.html');
-        }
-      });
-    })
+    caches.match(event.request).then((res) => res || fetch(event.request))
   );
 });
