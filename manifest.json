@@ -1,50 +1,101 @@
 {
-  "id": "com.mnaufala.hub",
-  "name": "M Naufal Amrullah",
+  "id": "https://mnaufalamna.github.io/mnaufala/",
+  "name": "M Naufal Amrullah Official Hub",
   "short_name": "MNaufalA",
-  "description": "Official Global Ecosystem & Central Gateway Hub M Naufal Amrullah",
+  "description": "Official Global Ecosystem & Verified Hub for M Naufal Amrullah (@mnaufala, @mnaufala_mna, mnaufalaMNA, oneberry.mnaufala). Developer portfolio, social gateway, direct contact & verified web ecosystem.",
   "start_url": "https://mnaufalamna.github.io/mnaufala/",
   "scope": "https://mnaufalamna.github.io/mnaufala/",
   "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#0a0f1d",
-  "theme_color": "#8b5cf6",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui",
+    "browser"
+  ],
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "orientation": "portrait-primary",
   "lang": "id",
-  "categories": ["utilities", "portfolio", "social"],
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "categories": [
+    "productivity",
+    "social",
+    "developer",
+    "utilities",
+    "personalization"
+  ],
   "icons": [
     {
-      "src": "https://avatars.githubusercontent.com/u/190825316?v=4&s=192",
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://avatars.githubusercontent.com/u/190825316?v=4&s=512",
+      "src": "/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "https://avatars.githubusercontent.com/u/190825316?v=4&s=512",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "any maskable"
     }
   ],
-  "screenshots": [
+  "shortcuts": [
     {
-      "src": "https://avatars.githubusercontent.com/u/190825316?v=4&s=1024",
-      "sizes": "1024x1024",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "label": "M Naufal Amrullah Portal"
+      "name": "YouTube Official Channel",
+      "short_name": "YouTube",
+      "description": "Buka kanal resmi YouTube @mnaufalamna",
+      "url": "https://www.youtube.com/@mnaufalamna"
     },
     {
-      "src": "https://avatars.githubusercontent.com/u/190825316?v=4&s=1024",
-      "sizes": "1024x1024",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "M Naufal Amrullah Hub"
+      "name": "Roblox Official Profile",
+      "short_name": "Roblox",
+      "description": "Koneksi profil resmi Roblox Metaverse",
+      "url": "https://www.roblox.com/share?code=0ed2af83dfa9b540bbba78010f86da81&type=Profile&source=ProfileShare&stamp=1787394507909"
+    },
+    {
+      "name": "GitHub Developer Profile",
+      "short_name": "GitHub",
+      "description": "Akses repositori & profil GitHub (mnaufalaMNA)",
+      "url": "https://github.com/mnaufalaMNA"
+    },
+    {
+      "name": "Bitly Universal Gateway",
+      "short_name": "Bitly",
+      "description": "Universal shortlink gateway",
+      "url": "https://bit.ly/m/MNaufalA"
+    },
+    {
+      "name": "Google Sites Portfolio",
+      "short_name": "Sites",
+      "description": "Portfolio resmi di Google Sites",
+      "url": "https://sites.google.com/view/mnaufala/mnaufala"
+    },
+    {
+      "name": "Instagram Official",
+      "short_name": "Instagram",
+      "description": "Instagram @mnaufala_mna",
+      "url": "https://www.instagram.com/mnaufala_mna?igsi=aWczZndpZzNxdzRu"
+    },
+    {
+      "name": "TikTok Official",
+      "short_name": "TikTok",
+      "description": "TikTok @oneberry.mnaufala",
+      "url": "https://www.tiktok.com/@oneberry.mnaufala?_r=1&_t=ZS-992G1oROUyY"
     }
-  ]
+  ],
+  "share_target": {
+    "action": "https://mnaufalamna.github.io/mnaufala/",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
 }
