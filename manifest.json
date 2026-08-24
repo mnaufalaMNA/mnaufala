@@ -34,99 +34,19 @@
       "purpose": "any maskable"
     },
     {
-      "src": "android/launchericon-512x512.png",
+      "src": "icon.svg",
       "sizes": "512x512",
-      "type": "image/png",
+      "type": "image/svg+xml",
       "purpose": "any maskable"
     },
     {
-      "src": "android/launchericon-192x192.png",
+      "src": "icon.svg",
       "sizes": "192x192",
-      "type": "image/png",
+      "type": "image/svg+xml",
       "purpose": "any maskable"
-    },
-    {
-      "src": "android/launchericon-144x144.png",
-      "sizes": "144x144",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "android/launchericon-96x96.png",
-      "sizes": "96x96",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "android/launchericon-72x72.png",
-      "sizes": "72x72",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "android/launchericon-48x48.png",
-      "sizes": "48x48",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "ios/1024.png",
-      "sizes": "1024x1024",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "ios/512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "ios/192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "ios/180.png",
-      "sizes": "180x180",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "ios/120.png",
-      "sizes": "120x120",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "windows/Square150x150Logo.scale-400.png",
-      "sizes": "600x600",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "windows/Square44x44Logo.scale-400.png",
-      "sizes": "176x176",
-      "type": "image/png",
-      "purpose": "any"
     }
   ],
   "screenshots": [
-    {
-      "src": "windows/SplashScreen.scale-400.png",
-      "sizes": "2480x1200",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "M Naufal Amrullah Official Hub Desktop Showcase"
-    },
-    {
-      "src": "windows/Wide310x150Logo.scale-400.png",
-      "sizes": "1240x600",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Official Wide Banner"
-    },
     {
       "src": "screenshot-desktop.svg",
       "sizes": "1280x720",
@@ -147,92 +67,43 @@
       "name": "YouTube Official Channel",
       "short_name": "YouTube",
       "description": "Buka kanal resmi YouTube @mnaufalamna",
-      "url": "https://www.youtube.com/@mnaufalamna",
-      "icons": [
-        {
-          "src": "android/launchericon-96x96.png",
-          "sizes": "96x96",
-          "type": "image/png"
-        }
-      ]
+      "url": "https://www.youtube.com/@mnaufalamna"
     },
     {
       "name": "Roblox Official Profile",
       "short_name": "Roblox",
       "description": "Koneksi profil resmi Roblox Metaverse",
-      "url": "https://www.roblox.com/share?code=0ed2af83dfa9b540bbba78010f86da81&type=Profile&source=ProfileShare&stamp=1787394507909",
-      "icons": [
-        {
-          "src": "android/launchericon-96x96.png",
-          "sizes": "96x96",
-          "type": "image/png"
-        }
-      ]
+      "url": "https://www.roblox.com/share?code=0ed2af83dfa9b540bbba78010f86da81&type=Profile&source=ProfileShare&stamp=1787394507909"
     },
     {
       "name": "GitHub Developer Profile",
       "short_name": "GitHub",
       "description": "Akses repositori & profil GitHub (mnaufalaMNA)",
-      "url": "https://github.com/mnaufalaMNA",
-      "icons": [
-        {
-          "src": "android/launchericon-96x96.png",
-          "sizes": "96x96",
-          "type": "image/png"
-        }
-      ]
+      "url": "https://github.com/mnaufalaMNA"
     },
     {
       "name": "Bitly Universal Gateway",
       "short_name": "Bitly",
       "description": "Universal shortlink gateway",
-      "url": "https://bit.ly/m/MNaufalA",
-      "icons": [
-        {
-          "src": "android/launchericon-96x96.png",
-          "sizes": "96x96",
-          "type": "image/png"
-        }
-      ]
+      "url": "https://bit.ly/m/MNaufalA"
     },
     {
       "name": "Google Sites Portfolio",
       "short_name": "Sites",
       "description": "Portfolio resmi di Google Sites",
-      "url": "https://sites.google.com/view/mnaufala/mnaufala",
-      "icons": [
-        {
-          "src": "android/launchericon-96x96.png",
-          "sizes": "96x96",
-          "type": "image/png"
-        }
-      ]
+      "url": "https://sites.google.com/view/mnaufala/mnaufala"
     },
     {
       "name": "Instagram Official",
       "short_name": "Instagram",
       "description": "Instagram @mnaufala_mna",
-      "url": "https://www.instagram.com/mnaufala_mna?igsi=aWczZndpZzNxdzRu",
-      "icons": [
-        {
-          "src": "android/launchericon-96x96.png",
-          "sizes": "96x96",
-          "type": "image/png"
-        }
-      ]
+      "url": "https://www.instagram.com/mnaufala_mna?igsi=aWczZndpZzNxdzRu"
     },
     {
       "name": "TikTok Official",
       "short_name": "TikTok",
       "description": "TikTok @oneberry.mnaufala",
-      "url": "https://www.tiktok.com/@oneberry.mnaufala?_r=1&_t=ZS-992G1oROUyY",
-      "icons": [
-        {
-          "src": "android/launchericon-96x96.png",
-          "sizes": "96x96",
-          "type": "image/png"
-        }
-      ]
+      "url": "https://www.tiktok.com/@oneberry.mnaufala?_r=1&_t=ZS-992G1oROUyY"
     }
   ],
   "scope_extensions": [
@@ -275,10 +146,6 @@
     }
   },
   "handle_links": "preferred",
-  "launch_handler": {
-    "client_mode": "auto"
-  },
-  "edge_side_panel": {
-    "preferred_width": 400
-  }
+  "launch_handler": { "client_mode": "auto" },
+  "edge_side_panel": { "preferred_width": 400 }
 }
