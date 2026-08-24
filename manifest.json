@@ -1,20 +1,96 @@
 {
-  "name": "M Naufal Amrullah Official Ecosystem",
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "id": "com.mnaufala.hub",
+  "name": "M Naufal Amrullah - Official Ecosystem Hub",
   "short_name": "MNaufalA",
-  "id": "/mnaufala/",
-  "start_url": "./index.html",
-  "scope": "./",
+  "description": "Menempa ide di antara sunyi, merajut masa depan di balik baris kode & semesta logika. Portal Resmi, Audio Synthesizer, Direktori Gateway, dan Ekosistem Digital Global.",
+  "start_url": "/mnaufala/",
+  "scope": "/mnaufala/",
   "display": "standalone",
-  "background_color": "#09090b",
-  "theme_color": "#09090b",
-  "description": "Menempa ide di antara sunyi, merajut masa depan di balik baris kode & semesta logika.",
-  "orientation": "portrait-primary",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#0a0f1d",
+  "theme_color": "#8b5cf6",
+  "lang": "id",
+  "dir": "ltr",
+  "categories": ["utilities", "portfolio", "social", "music", "entertainment", "productivity"],
+  "prefer_related_applications": false,
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.mnaufala.hub",
+      "id": "com.mnaufala.hub"
+    }
+  ],
   "icons": [
     {
-      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%230f0c1b'/%3E%3Cstop offset='100%25' stop-color='%2318132b'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23f472b6'/%3E%3Cstop offset='50%25' stop-color='%23a855f7'/%3E%3Cstop offset='100%25' stop-color='%2338bdf8'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='120' height='120' rx='36' fill='url(%23g)' stroke='url(%23b)' stroke-width='3'/%3E%3Cg fill='%23ffffff'%3E%3Cpath d='M60 22C53 22 47 24.2 43 28C40.5 25.8 36.5 22.5 33.5 22.5C29.5 22.5 28 27.5 30.5 33C26.5 36.5 24.5 41.8 24.5 47C24.5 59.2 36 69.5 60 69.5C84 69.5 95.5 59.2 95.5 47C95.5 41.8 93.5 36.5 89.5 33C92 27.5 90.5 22.5 86.5 22.5C83.5 22.5 79.5 25.8 77 28C73 24.2 67 22 60 22Z'/%3E%3Ccircle cx='98' cy='98' r='14' fill='%238b5cf6' stroke='%2309090b' stroke-width='2.5'/%3E%3Cpath d='M94 98L97 101L103 95' fill='none' stroke='%23ffffff' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3C/svg%3E",
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='110' fill='%230f172a'/%3E%3Cpath d='M150 180c0-20 30-40 50-20 30 10 70 10 100 0 20-20 50 0 50 20 20 40 30 90 0 130-30 40-100 50-150 40-40-10-60-40-60-80 0-30 10-60 10-90z' fill='%23a855f7'/%3E%3Ccircle cx='210' cy='230' r='18' fill='%23ffffff'/%3E%3Ccircle cx='300' cy='230' r='18' fill='%23ffffff'/%3E%3Ccircle cx='255' cy='275' r='10' fill='%2338bdf8'/%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='110' fill='%230f172a'/%3E%3Cpath d='M150 180c0-20 30-40 50-20 30 10 70 10 100 0 20-20 50 0 50 20 20 40 30 90 0 130-30 40-100 50-150 40-40-10-60-40-60-80 0-30 10-60 10-90z' fill='%23a855f7'/%3E%3Ccircle cx='210' cy='230' r='18' fill='%23ffffff'/%3E%3Ccircle cx='300' cy='230' r='18' fill='%23ffffff'/%3E%3Ccircle cx='255' cy='275' r='10' fill='%2338bdf8'/%3E%3C/svg%3E",
       "sizes": "512x512",
       "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' fill='%230a0f1d'/%3E%3Cpath d='M150 180c0-20 30-40 50-20 30 10 70 10 100 0 20-20 50 0 50 20 20 40 30 90 0 130-30 40-100 50-150 40-40-10-60-40-60-80 0-30 10-60 10-90z' fill='%23a855f7'/%3E%3Ccircle cx='210' cy='230' r='18' fill='%23ffffff'/%3E%3Ccircle cx='300' cy='230' r='18' fill='%23ffffff'/%3E%3Ccircle cx='255' cy='275' r='10' fill='%2338bdf8'/%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
     }
-  ]
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1080 1920'%3E%3Crect width='1080' height='1920' fill='%230a0f1d'/%3E%3Ccircle cx='540' cy='400' r='200' fill='%238b5cf6' opacity='0.3'/%3E%3Ctext x='540' y='750' font-size='56' font-family='sans-serif' font-weight='bold' fill='%23ffffff' text-anchor='middle'%3EM NAUFAL AMRULLAH%3C/text%3E%3Ctext x='540' y='830' font-size='32' font-family='sans-serif' fill='%23a855f7' text-anchor='middle'%3EOfficial Ecosystem Portal%3C/text%3E%3Crect x='100' y='950' width='880' height='160' rx='30' fill='%231e293b' stroke='%238b5cf6' stroke-width='4'/%3E%3Ctext x='540' y='1045' font-size='36' font-family='sans-serif' font-weight='bold' fill='%2338bdf8' text-anchor='middle'%3EAudio Synthesizer %26 Gateways%3C/text%3E%3C/svg%3E",
+      "sizes": "1080x1920",
+      "type": "image/svg+xml",
+      "form_factor": "narrow",
+      "label": "Tampilan Mobile App Portal Resmi M Naufal Amrullah"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1080'%3E%3Crect width='1920' height='1080' fill='%230a0f1d'/%3E%3Ctext x='960' y='480' font-size='64' font-family='sans-serif' font-weight='bold' fill='%23ffffff' text-anchor='middle'%3EM NAUFAL AMRULLAH%3C/text%3E%3Ctext x='960' y='560' font-size='36' font-family='sans-serif' fill='%2338bdf8' text-anchor='middle'%3EGlobal Digital Gateway %26 Web Portal Hub%3C/text%3E%3Crect x='480' y='640' width='960' height='140' rx='25' fill='%231e293b' stroke='%238b5cf6' stroke-width='4'/%3E%3Ctext x='960' y='725' font-size='34' font-family='sans-serif' font-weight='bold' fill='%2334d399' text-anchor='middle'%3E100%25 Certified PWA %26 Web Audio Engine%3C/text%3E%3C/svg%3E",
+      "sizes": "1920x1080",
+      "type": "image/svg+xml",
+      "form_factor": "wide",
+      "label": "Tampilan Desktop Dashboard Ekosistem Resmi"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Portal Utama",
+      "short_name": "Portal",
+      "url": "/mnaufala/",
+      "description": "Buka Beranda Portal Resmi"
+    },
+    {
+      "name": "Gerbang Bio Link",
+      "short_name": "Bio Link",
+      "url": "https://bit.ly/m/MNaufalA",
+      "description": "Buka Direktori Universal Bio Link"
+    },
+    {
+      "name": "YouTube Channel",
+      "short_name": "YouTube",
+      "url": "https://www.youtube.com/@mnaufalamna",
+      "description": "Kunjungi Channel YouTube Resmi"
+    },
+    {
+      "name": "GitHub Master",
+      "short_name": "GitHub",
+      "url": "https://github.com/mnaufalaMNA",
+      "description": "Repositori dan Kode Sumber"
+    }
+  ],
+  "share_target": {
+    "action": "/mnaufala/",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
 }
