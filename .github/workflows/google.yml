@@ -8,7 +8,6 @@ on:
       - mnaufalamna
       - main
   schedule:
-    # Berjalan otomatis setiap hari Senin jam 06:00 UTC
     - cron: '0 6 * * 1'
   workflow_dispatch:
 
@@ -23,16 +22,16 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Verify SEO Files (Sitemap & Robots)
+      - name: Verify SEO Files
         run: |
-          echo "Memeriksa ketersediaan sitemap.xml dan robots.txt..."
+          echo "Memeriksa sitemap.xml dan robots.txt..."
           test -f sitemap.xml || (echo "Error: sitemap.xml tidak ditemukan!" && exit 1)
           test -f robots.txt || (echo "Error: robots.txt tidak ditemukan!" && exit 1)
-          echo "✅ Semua berkas SEO (sitemap.xml & robots.txt) valid!"
+          echo "✅ Semua berkas SEO valid!"
 
-      - name: Ping Search Engines (Google & Bing)
+      - name: Ping Search Engines
         run: |
-          echo "Mengirim notifikasi perbaruan sitemap ke Search Engines..."
+          echo "Mengirim notifikasi sitemap ke Google & Bing..."
           curl -s -I "https://www.google.com/ping?sitemap=https://mnaufalamna.github.io/mnaufala/sitemap.xml" || true
           curl -s -I "https://www.bing.com/ping?sitemap=https://mnaufalamna.github.io/mnaufala/sitemap.xml" || true
-          echo "✅ Notifikasi perayapan berhasil dikirim ke Google & Bing!"
+          echo "✅ Berhasil ping Google & Bing!"
