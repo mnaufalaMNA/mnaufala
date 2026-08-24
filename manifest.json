@@ -2,7 +2,7 @@
   "id": "com.mnaufala.hub",
   "name": "M Naufal Amrullah",
   "short_name": "MNaufalA",
-  "description": "Menempa ide di antara sunyi, merajut masa depan di balik baris kode & semesta logika. Portal Resmi M Naufal Amrullah.",
+  "description": "Official Global Ecosystem & Central Gateway Hub M Naufal Amrullah",
   "start_url": "https://mnaufalamna.github.io/mnaufala/",
   "scope": "https://mnaufalamna.github.io/mnaufala/",
   "display": "standalone",
@@ -13,22 +13,38 @@
   "categories": ["utilities", "portfolio", "social"],
   "icons": [
     {
-      "src": "https://raw.githubusercontent.com/mnaufalaMNA/mnaufala/mnaufala/public/icon-192.png",
+      "src": "https://avatars.githubusercontent.com/u/190825316?v=4&s=192",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://raw.githubusercontent.com/mnaufalaMNA/mnaufala/mnaufala/public/icon-512.png",
+      "src": "https://avatars.githubusercontent.com/u/190825316?v=4&s=512",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "https://avatars.githubusercontent.com/u/190825316?v=4",
+      "src": "https://avatars.githubusercontent.com/u/190825316?v=4&s=512",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://avatars.githubusercontent.com/u/190825316?v=4&s=1024",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "M Naufal Amrullah Portal"
+    },
+    {
+      "src": "https://avatars.githubusercontent.com/u/190825316?v=4&s=1024",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "M Naufal Amrullah Hub"
     }
   ]
 }
