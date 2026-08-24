@@ -1,5 +1,74 @@
+# ==========================================
+# M Naufal Amrullah Official Ecosystem
+# Global Git Ignore Rules (Security & Clean)
+# ==========================================
+
+# 1. Dependency Directories & Package Managers
 node_modules/
+jspm_packages/
+web_modules/
+.pnpm-store/
+
+# 2. Production Build Outputs
 dist/
-.DS_Store
-*.log
+dist-ssr/
+build/
+out/
+.next/
+.nuxt/
+.output/
+
+# 3. Environment Variables & Secret API Keys (CRITICAL)
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.pem
+*.key
+*.cert
+*.pfx
+
+# 4. Logs, Debugging & Cache
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+.cache/
+.parcel-cache/
+
+# 5. OS Generated Files (Android, iOS, Windows, macOS, Linux)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# 6. IDEs & Code Editor Settings
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.bak
+*~
+
+# 7. Temporary Backup Files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
