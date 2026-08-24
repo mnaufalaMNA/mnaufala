@@ -1,3 +1,5 @@
+title: M Naufal Amrullah Ecosystem
+description: Official Portfolio and Web Hub
 theme: jekyll-theme-cayman
-title: "M Naufal Amrullah - Official Global Ecosystem"
-description: "Portal resmi ekosistem global M Naufal Amrullah (@mnaufala / @mnaufala_mna)."
+plugins:
+  - jekyll-sitemap
