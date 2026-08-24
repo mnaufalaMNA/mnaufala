@@ -28,130 +28,56 @@
   ],
   "icons": [
     {
-      "src": "icon.svg",
-      "sizes": "512x512",
+      "src": "https://mnaufalamna.github.io/mnaufala/icon.svg",
+      "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any"
     },
     {
-      "src": "icon.svg",
-      "sizes": "512x512",
-      "type": "image/svg+xml",
-      "purpose": "maskable"
-    },
-    {
-      "src": "icon.svg",
-      "sizes": "192x192",
-      "type": "image/svg+xml",
-      "purpose": "any"
-    },
-    {
-      "src": "icon.svg",
-      "sizes": "192x192",
+      "src": "https://mnaufalamna.github.io/mnaufala/icon.svg",
+      "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "maskable"
     },
     {
-      "src": "icon.svg",
-      "sizes": "96x96",
+      "src": "https://mnaufalamna.github.io/mnaufala/icon.svg",
+      "sizes": "192x192",
       "type": "image/svg+xml",
       "purpose": "any"
     },
     {
-      "src": "icon.svg",
-      "sizes": "48x48",
+      "src": "https://mnaufalamna.github.io/mnaufala/icon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://mnaufalamna.github.io/mnaufala/icon.svg",
+      "sizes": "512x512",
       "type": "image/svg+xml",
       "purpose": "any"
     },
     {
-      "src": "android/launchericon-512x512.png",
+      "src": "https://mnaufalamna.github.io/mnaufala/icon.svg",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "android/launchericon-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png",
+      "type": "image/svg+xml",
       "purpose": "maskable"
-    },
-    {
-      "src": "android/launchericon-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "android/launchericon-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "android/launchericon-96x96.png",
-      "sizes": "96x96",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "android/launchericon-48x48.png",
-      "sizes": "48x48",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "ios/512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "ios/192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "windows/Square150x150Logo.scale-400.png",
-      "sizes": "600x600",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "windows/Square44x44Logo.scale-400.png",
-      "sizes": "176x176",
-      "type": "image/png",
-      "purpose": "any"
     }
   ],
   "screenshots": [
     {
-      "src": "screenshot-desktop.svg",
+      "src": "https://mnaufalamna.github.io/mnaufala/screenshot-desktop.svg",
       "sizes": "1280x720",
       "type": "image/svg+xml",
       "form_factor": "wide",
       "label": "M Naufal Amrullah Official Hub Desktop Showcase"
     },
     {
-      "src": "screenshot-mobile.svg",
+      "src": "https://mnaufalamna.github.io/mnaufala/screenshot-mobile.svg",
       "sizes": "720x1280",
       "type": "image/svg+xml",
       "form_factor": "narrow",
       "label": "M Naufal Amrullah Official Hub Mobile Experience"
-    },
-    {
-      "src": "windows/SplashScreen.scale-400.png",
-      "sizes": "2480x1200",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Official Splash Banner"
-    },
-    {
-      "src": "windows/Wide310x150Logo.scale-400.png",
-      "sizes": "1240x600",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Official Wide Banner"
     }
   ],
   "shortcuts": [
@@ -162,8 +88,8 @@
       "url": "https://www.youtube.com/@mnaufalamna",
       "icons": [
         {
-          "src": "icon.svg",
-          "sizes": "96x96",
+          "src": "https://mnaufalamna.github.io/mnaufala/icon.svg",
+          "sizes": "any",
           "type": "image/svg+xml"
         }
       ]
@@ -175,8 +101,8 @@
       "url": "https://www.roblox.com/share?code=0ed2af83dfa9b540bbba78010f86da81&type=Profile&source=ProfileShare&stamp=1787394507909",
       "icons": [
         {
-          "src": "icon.svg",
-          "sizes": "96x96",
+          "src": "https://mnaufalamna.github.io/mnaufala/icon.svg",
+          "sizes": "any",
           "type": "image/svg+xml"
         }
       ]
@@ -188,8 +114,8 @@
       "url": "https://github.com/mnaufalaMNA",
       "icons": [
         {
-          "src": "icon.svg",
-          "sizes": "96x96",
+          "src": "https://mnaufalamna.github.io/mnaufala/icon.svg",
+          "sizes": "any",
           "type": "image/svg+xml"
         }
       ]
@@ -201,8 +127,8 @@
       "url": "https://bit.ly/m/MNaufalA",
       "icons": [
         {
-          "src": "icon.svg",
-          "sizes": "96x96",
+          "src": "https://mnaufalamna.github.io/mnaufala/icon.svg",
+          "sizes": "any",
           "type": "image/svg+xml"
         }
       ]
@@ -214,8 +140,8 @@
       "url": "https://sites.google.com/view/mnaufala/mnaufala",
       "icons": [
         {
-          "src": "icon.svg",
-          "sizes": "96x96",
+          "src": "https://mnaufalamna.github.io/mnaufala/icon.svg",
+          "sizes": "any",
           "type": "image/svg+xml"
         }
       ]
@@ -227,8 +153,8 @@
       "url": "https://www.instagram.com/mnaufala_mna?igsi=aWczZndpZzNxdzRu",
       "icons": [
         {
-          "src": "icon.svg",
-          "sizes": "96x96",
+          "src": "https://mnaufalamna.github.io/mnaufala/icon.svg",
+          "sizes": "any",
           "type": "image/svg+xml"
         }
       ]
@@ -240,38 +166,26 @@
       "url": "https://www.tiktok.com/@oneberry.mnaufala?_r=1&_t=ZS-992G1oROUyY",
       "icons": [
         {
-          "src": "icon.svg",
-          "sizes": "96x96",
+          "src": "https://mnaufalamna.github.io/mnaufala/icon.svg",
+          "sizes": "any",
           "type": "image/svg+xml"
         }
       ]
     }
   ],
   "scope_extensions": [
-    {
-      "origin": "https://mnaufalamna.github.io"
-    },
-    {
-      "origin": "https://sites.google.com"
-    },
-    {
-      "origin": "https://bit.ly"
-    },
-    {
-      "origin": "https://github.com"
-    },
-    {
-      "origin": "https://www.youtube.com"
-    },
-    {
-      "origin": "https://www.instagram.com"
-    },
-    {
-      "origin": "https://www.tiktok.com"
-    },
-    {
-      "origin": "https://www.roblox.com"
-    }
+    { "origin": "https://mnaufalamna.github.io" },
+    { "origin": "https://sites.google.com" },
+    { "origin": "https://bit.ly" },
+    { "origin": "https://github.com" },
+    { "origin": "https://youtube.com" },
+    { "origin": "https://www.youtube.com" },
+    { "origin": "https://instagram.com" },
+    { "origin": "https://www.instagram.com" },
+    { "origin": "https://tiktok.com" },
+    { "origin": "https://www.tiktok.com" },
+    { "origin": "https://roblox.com" },
+    { "origin": "https://www.roblox.com" }
   ],
   "related_applications": [
     {
@@ -297,5 +211,12 @@
       "text": "text",
       "url": "url"
     }
+  },
+  "handle_links": "preferred",
+  "launch_handler": {
+    "client_mode": "auto"
+  },
+  "edge_side_panel": {
+    "preferred_width": 400
   }
-}
+    }
