@@ -1,5 +1,5 @@
-const CACHE_NAME = 'mnaufala-cache-v2026';
-const ASSETS = [
+const CACHE_NAME = 'mnaufala-v2026.2';
+const STATIC_ASSETS = [
   './',
   './index.html',
   './404.html',
@@ -10,7 +10,7 @@ const ASSETS = [
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => cache.addAll(ASSETS))
+    caches.open(CACHE_NAME).then((cache) => cache.addAll(STATIC_ASSETS))
   );
   self.skipWaiting();
 });
@@ -32,6 +32,8 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
   event.respondWith(
-    caches.match(event.request).then((res) => res || fetch(event.request))
+    caches.match(event.request).then((cachedResponse) => {
+      return cachedResponse || fetch(event.request);
+    })
   );
 });
