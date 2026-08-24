@@ -1,7 +1,7 @@
-# Kebijakan Keamanan (Security Policy)
+# 🛡️ Kebijakan Keamanan (Security Policy)
 
-## Pelaporan Kerentanan Keamanan
-Keamanan data dan integritas portal ekosistem adalah prioritas utama. Jika Anda menemukan bug, kerentanan, atau celah keamanan apa pun, silakan laporkan melalui kanal pengembang resmi:
-- **GitHub Issues / Security Advisory**: [https://github.com/mnaufalaMNA](https://github.com/mnaufalaMNA)
+## Versi yang Didukung
+Seluruh rilis aktif pada portal web GitHub Pages `https://mnaufalamna.github.io/mnaufala/`.
 
-Kami menjamin respon cepat dan penanganan transparan demi keamanan bersama.
+## Melaporkan Kerentanan
+Jika Anda menemukan celah keamanan, laporkan melalui fitur Issue di GitHub atau kontak pengembang di ekosistem resmi M Naufal Amrullah.
