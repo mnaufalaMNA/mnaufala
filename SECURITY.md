@@ -4,4 +4,4 @@
 Seluruh rilis aktif pada portal web GitHub Pages `https://mnaufalamna.github.io/mnaufala/`.
 
 ## Melaporkan Kerentanan
-Jika Anda menemukan celah keamanan, laporkan melalui fitur Issue di GitHub atau kontak pengembang di ekosistem resmi M Naufal Amrullah.
+Jika Anda menemukan potensi celah keamanan atau bug pada ekosistem ini, silakan sampaikan laporan melalui GitHub Issues atau hubungi tim pengembang di kanal media sosial resmi.
