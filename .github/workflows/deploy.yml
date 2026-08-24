@@ -1,4 +1,4 @@
-name: Deploy Ecosystem to GitHub Pages & Production
+name: Deploy Ecosystem to GitHub Pages
 
 on:
   push:
@@ -7,7 +7,6 @@ on:
       - mnaufala_mna
       - mnaufalamna
       - main
-      - master
   workflow_dispatch:
 
 permissions:
@@ -16,7 +15,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: 'pages'
+  group: "pages"
   cancel-in-progress: true
 
 jobs:
@@ -29,23 +28,14 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Verify Core Files
-        run: |
-          echo "Memverifikasi integritas berkas portal..."
-          test -f index.html || exit 1
-          test -f manifest.json || exit 1
-          test -f sitemap.xml || exit 1
-          test -f robots.txt || exit 1
-          echo "Semua berkas inti lengkap dan valid!"
-
-      - name: Setup GitHub Pages Engine
+      - name: Setup Pages
         uses: actions/configure-pages@v4
 
-      - name: Upload Artifacts
+      - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
 
-      - name: Deploy to GitHub Pages Live
+      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
