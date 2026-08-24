@@ -5,14 +5,16 @@
 
 <!-- Dynamic Typing Animation SVG Header -->
 <a href="https://mnaufalamna.github.io/mnaufala/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&multiline=true&width=620&height=100&lines=M+NAUFAL+AMRULLAH;Software+Architect+%7C+Creative+Technologist;%40mnaufala+%E2%80%A2+%40mnaufala_mna+%E2%80%A2+mnaufalaMNA;Official+Global+Web+%26+Mobile+Ecosystem" alt="Typing Animation Header" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&multiline=true&width=620&height=90&lines=M+NAUFAL+AMRULLAH;Software+Architect+%7C+Creative+Technologist;%40mnaufala+%E2%80%A2+%40mnaufala_mna+%E2%80%A2+mnaufalaMNA;Official+Global+Web+%26+Mobile+Ecosystem" alt="Typing Animation Header" />
 </a>
 
 <br/>
 
-<!-- Live Status Badges with Gradient Glow -->
+<!-- Live Status Badges -->
 [![Portal Live](https://img.shields.io/badge/⚡%20LIVE%20PORTAL-mnaufalamna.github.io%2Fmnaufala-8b5cf6?style=for-the-badge&logo=githubpages&logoColor=white)](https://mnaufalamna.github.io/mnaufala/)
 [![Universal Link](https://img.shields.io/badge/🔗%20BIO%20GATEWAY-bit.ly%2Fm%2FMNaufalA-f59e0b?style=for-the-badge&logo=linkfire&logoColor=white)](https://bit.ly/m/MNaufalA)
+
+<br/>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-100%25%20Operational-34d399?style=flat-square&logo=statuspage&logoColor=white" alt="Status"/>
@@ -23,21 +25,35 @@
   <img src="https://img.shields.io/badge/License-MIT-ec4899?style=flat-square&logo=open-source-initiative&logoColor=white" alt="MIT"/>
 </p>
 
-<!-- Animated Visual Divider -->
+<!-- Animated Rainbow Divider -->
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="3px" alt="line" />
 
 <br/>
 
 > *"Menempa ide di antara sunyi, merajut masa depan di balik baris kode & semesta logika."*
-<br>
-<sub><b>Official Verified Handles:</b> <code>@mnaufala</code> • <code>@mnaufala_mna</code> • <code>mnaufalaMNA</code> • <code>oneberry.mnaufala</code> • <code>oneberry_mna</code></sub>
 
 <br/>
 
-<!-- Dynamic GitHub Stats & Activity Cards -->
+<!-- Profile View Counter Badge -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mnaufalaMNA&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&icon_color=38bdf8&text_color=94a3b8" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mnaufalaMNA&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a855f7&text_color=94a3b8" height="150" alt="Top Languages" />
+  <a href="https://github.com/mnaufalaMNA">
+    <img src="https://komarev.com/ghpvc/?username=mnaufalaMNA&label=ECOSYSTEM+VISITORS&color=8b5cf6&style=flat-square" alt="Visitors Counter" />
+  </a>
+</p>
+
+<!-- Official Handles Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Handle-@mnaufala-1e1b4b?style=flat-square&logo=tag&logoColor=a855f7" alt="Handle 1"/>
+  <img src="https://img.shields.io/badge/Handle-@mnaufala__mna-1e1b4b?style=flat-square&logo=tag&logoColor=a855f7" alt="Handle 2"/>
+  <img src="https://img.shields.io/badge/Handle-mnaufalaMNA-1e1b4b?style=flat-square&logo=github&logoColor=a855f7" alt="Handle 3"/>
+  <img src="https://img.shields.io/badge/Handle-@oneberry.mnaufala-1e1b4b?style=flat-square&logo=tiktok&logoColor=a855f7" alt="Handle 4"/>
+</p>
+
+<br/>
+
+<!-- Ultra-Reliable GitHub Dynamic Activity Card -->
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=mnaufalaMNA&theme=tokyonight&hide_border=true&background=0D1117&ring=A855F7&fire=EC4899&currStreakLabel=A855F7&sideNums=38BDF8&sideLabels=94A3B8&dates=64748B" alt="GitHub Streak Stats" />
 </p>
 
 </div>
@@ -69,7 +85,7 @@
 
 ---
 
-## 🚀 Sorotan Arsitektur & Teknologi Ekosistem
+## 🚀 Ekosistem Teknologi & Arsitektur
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,vite,githubactions,git,pwa,svg,vscode" alt="Tech Stack Icons" />
