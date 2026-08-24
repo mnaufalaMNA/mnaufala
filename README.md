@@ -9,7 +9,7 @@
 
 ### 🌟 Portal & Direktori Tautan Resmi Terverifikasi
 
-- 🌐 **Website Resmi:** [mnaufalamna.github.io/mnaufala](https://mnaufalamna.github.io/mnaufala/)
+- 🌐 **Website Utama:** [mnaufalamna.github.io/mnaufala](https://mnaufalamna.github.io/mnaufala/)
 - ⚡ **Bitly Universal Gateway:** [bit.ly/m/MNaufalA](https://bit.ly/m/MNaufalA)
 - 🔴 **YouTube Channel:** [@mnaufalamna](https://www.youtube.com/@mnaufalamna)
 - 🎮 **Roblox Official Profile:** [Profil Roblox Resmi](https://www.roblox.com/share?code=0ed2af83dfa9b540bbba78010f86da81&type=Profile&source=ProfileShare&stamp=1787394507909)
