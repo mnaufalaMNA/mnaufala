@@ -173,6 +173,17 @@
       ]
     }
   ],
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.mnaufala.hub",
+      "id": "com.mnaufala.hub"
+    },
+    {
+      "platform": "webapp",
+      "url": "https://mnaufalamna.github.io/mnaufala/manifest.json"
+    }
+  ],
   "share_target": {
     "action": "https://mnaufalamna.github.io/mnaufala/",
     "method": "GET",
