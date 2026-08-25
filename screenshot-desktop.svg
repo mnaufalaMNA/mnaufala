@@ -49,28 +49,24 @@
 
     <!-- Social Link Cards Mockup -->
     <g transform="translate(60, 305)">
-      <!-- YouTube -->
       <rect width="480" height="52" rx="16" fill="#181824" stroke="#ffffff15"/>
       <circle cx="35" cy="26" r="14" fill="#ef4444"/>
       <text x="65" y="31" fill="#ffffff" font-size="14" font-family="system-ui" font-weight="700">Official YouTube Channel</text>
       <text x="440" y="31" fill="#a855f7" font-size="13" font-family="system-ui">➔</text>
     </g>
     <g transform="translate(60, 368)">
-      <!-- GitHub -->
       <rect width="480" height="52" rx="16" fill="#181824" stroke="#ffffff15"/>
       <circle cx="35" cy="26" r="14" fill="#6366f1"/>
       <text x="65" y="31" fill="#ffffff" font-size="14" font-family="system-ui" font-weight="700">GitHub Developer Profile</text>
       <text x="440" y="31" fill="#a855f7" font-size="13" font-family="system-ui">➔</text>
     </g>
     <g transform="translate(60, 431)">
-      <!-- Roblox -->
       <rect width="480" height="52" rx="16" fill="#181824" stroke="#ffffff15"/>
       <circle cx="35" cy="26" r="14" fill="#10b981"/>
       <text x="65" y="31" fill="#ffffff" font-size="14" font-family="system-ui" font-weight="700">Roblox Metaverse Profile</text>
       <text x="440" y="31" fill="#a855f7" font-size="13" font-family="system-ui">➔</text>
     </g>
     <g transform="translate(60, 494)">
-      <!-- Instagram / Bitly -->
       <rect width="480" height="52" rx="16" fill="#181824" stroke="#ffffff15"/>
       <circle cx="35" cy="26" r="14" fill="#ec4899"/>
       <text x="65" y="31" fill="#ffffff" font-size="14" font-family="system-ui" font-weight="700">Instagram &amp; Global Links</text>
