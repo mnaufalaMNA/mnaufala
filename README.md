@@ -88,6 +88,23 @@
 
 ---
 
+## 📲 Cara Pasang Aplikasi di HP (100% Gratis & Layar Penuh)
+
+Aplikasi ini dapat dipasang langsung di Smartphone Anda tanpa melalui toko aplikasi pihak ketiga:
+
+1. Buka tautan resmi portal: **[https://mnaufalamna.github.io/mnaufala/](https://mnaufalamna.github.io/mnaufala/)** di Google Chrome / Safari HP Anda.
+2. Ketuk ikon titik tiga **⋮** (di kanan atas) atau tombol bagikan.
+3. Pilih **"Instal aplikasi"** atau **"Tambahkan ke Layar Utama"** *(Add to Home Screen)*.
+4. Aplikasi resmi **M Naufal Amrullah Hub** akan langsung terpasang di HP Anda dengan ikon mandiri dan pengalaman layar penuh (*Full Screen Standalone*)!
+
+---
+
+## 💬 Ajakan Komunitas & Dukungan
+
+> *"Halo semuanya! Yuk dukung dan follow seluruh akun media sosial resmi dari **M NAUFAL AMRULLAH** (`mnaufala` / `mnaufala_mna`) melalui tautan gerbang resmi di atas. Jangan lupa untuk follow, subscribe, dan share ke yang lain ya! Terima kasih banyak atas dukungannya! 🙌"*
+
+---
+
 ## 🛡️ Hak Cipta & Lisensi Resmi
 
 Seluruh kode sumber, arsitektur sistem, dan aset digital ekosistem ini dilindungi di bawah lisensi terbuka resmi **[MIT License](LICENSE)**.
