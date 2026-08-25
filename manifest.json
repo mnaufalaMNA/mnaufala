@@ -28,32 +28,38 @@
   ],
   "icons": [
     {
-      "src": "icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icon.svg",
-      "sizes": "512x512",
-      "type": "image/svg+xml",
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "icon.svg",
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-512.png",
       "sizes": "512x512",
-      "type": "image/svg+xml",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
       "purpose": "maskable"
     },
     {
       "src": "icon.svg",
-      "sizes": "192x192",
+      "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any"
     },
     {
       "src": "icon.svg",
-      "sizes": "192x192",
+      "sizes": "512x512",
       "type": "image/svg+xml",
       "purpose": "maskable"
     }
@@ -79,82 +85,107 @@
       "name": "YouTube Official Channel",
       "short_name": "YouTube",
       "description": "Buka kanal resmi YouTube @mnaufalamna",
-      "url": "https://www.youtube.com/@mnaufalamna"
+      "url": "https://www.youtube.com/@mnaufalamna",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     },
     {
       "name": "Roblox Official Profile",
       "short_name": "Roblox",
       "description": "Koneksi profil resmi Roblox Metaverse",
-      "url": "https://www.roblox.com/share?code=0ed2af83dfa9b540bbba78010f86da81&type=Profile&source=ProfileShare&stamp=1787394507909"
+      "url": "https://www.roblox.com/share?code=0ed2af83dfa9b540bbba78010f86da81&type=Profile&source=ProfileShare&stamp=1787394507909",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     },
     {
       "name": "GitHub Developer Profile",
       "short_name": "GitHub",
       "description": "Akses repositori & profil GitHub (mnaufalaMNA)",
-      "url": "https://github.com/mnaufalaMNA"
+      "url": "https://github.com/mnaufalaMNA",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     },
     {
       "name": "Bitly Universal Gateway",
       "short_name": "Bitly",
       "description": "Universal shortlink gateway",
-      "url": "https://bit.ly/m/MNaufalA"
+      "url": "https://bit.ly/m/MNaufalA",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     },
     {
       "name": "Google Sites Portfolio",
       "short_name": "Sites",
       "description": "Portfolio resmi di Google Sites",
-      "url": "https://sites.google.com/view/mnaufala/mnaufala"
+      "url": "https://sites.google.com/view/mnaufala/mnaufala",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     },
     {
       "name": "Instagram Official",
       "short_name": "Instagram",
       "description": "Instagram @mnaufala_mna",
-      "url": "https://www.instagram.com/mnaufala_mna?igsi=aWczZndpZzNxdzRu"
+      "url": "https://www.instagram.com/mnaufala_mna?igsi=aWczZndpZzNxdzRu",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     },
     {
       "name": "TikTok Official",
       "short_name": "TikTok",
       "description": "TikTok @oneberry.mnaufala",
-      "url": "https://www.tiktok.com/@oneberry.mnaufala?_r=1&_t=ZS-992G1oROUyY"
+      "url": "https://www.tiktok.com/@oneberry.mnaufala?_r=1&_t=ZS-992G1oROUyY",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     }
   ],
   "scope_extensions": [
-    {
-      "origin": "https://mnaufalamna.github.io"
-    },
-    {
-      "origin": "https://sites.google.com"
-    },
-    {
-      "origin": "https://bit.ly"
-    },
-    {
-      "origin": "https://github.com"
-    },
-    {
-      "origin": "https://youtube.com"
-    },
-    {
-      "origin": "https://www.youtube.com"
-    },
-    {
-      "origin": "https://instagram.com"
-    },
-    {
-      "origin": "https://www.instagram.com"
-    },
-    {
-      "origin": "https://tiktok.com"
-    },
-    {
-      "origin": "https://www.tiktok.com"
-    },
-    {
-      "origin": "https://roblox.com"
-    },
-    {
-      "origin": "https://www.roblox.com"
-    }
+    { "origin": "https://mnaufalamna.github.io" },
+    { "origin": "https://sites.google.com" },
+    { "origin": "https://bit.ly" },
+    { "origin": "https://github.com" },
+    { "origin": "https://youtube.com" },
+    { "origin": "https://www.youtube.com" },
+    { "origin": "https://instagram.com" },
+    { "origin": "https://www.instagram.com" },
+    { "origin": "https://tiktok.com" },
+    { "origin": "https://www.tiktok.com" },
+    { "origin": "https://roblox.com" },
+    { "origin": "https://www.roblox.com" }
   ],
   "related_applications": [
     {
@@ -188,4 +219,4 @@
   "edge_side_panel": {
     "preferred_width": 400
   }
-}
+        }
