@@ -1,5 +1,5 @@
 // ============================================================================
-// Service Worker Auto-Update System
+// Service Worker Auto-Update & Offline PWA System
 // Portal: https://mnaufalamna.github.io/mnaufala/
 // ============================================================================
 
@@ -9,19 +9,26 @@ const STATIC_ASSETS = [
   './index.html',
   './404.html',
   './manifest.json',
+  './icon.svg',
+  './screenshot-desktop.svg',
+  './screenshot-mobile.svg',
   './robots.txt',
   './sitemap.xml'
 ];
 
-// 1. Install & langsung paksa aktif tanpa menunggu tab ditutup
+// 1. Install & langsung aktifkan precache
 self.addEventListener('install', (event) => {
   self.skipWaiting();
   event.waitUntil(
-    caches.open(CACHE_VERSION).then((cache) => cache.addAll(STATIC_ASSETS))
+    caches.open(CACHE_VERSION).then((cache) => {
+      return cache.addAll(STATIC_ASSETS).catch((err) => {
+        console.warn('Pre-caching assets:', err);
+      });
+    })
   );
 });
 
-// 2. Activate & langsung hapus semua cache versi lama seketika
+// 2. Activate & hapus cache versi lama seketika
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((keys) => {
@@ -36,7 +43,7 @@ self.addEventListener('activate', (event) => {
   );
 });
 
-// 3. Network First Strategy: Ambil data terbaru dari internet dulu, jika offline baru ambil cache
+// 3. Network First Strategy dengan Fallback ke Offline Cache
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
 
@@ -55,14 +62,14 @@ self.addEventListener('fetch', (event) => {
         return caches.match(event.request).then((cachedResponse) => {
           if (cachedResponse) return cachedResponse;
           if (event.request.mode === 'navigate') {
-            return caches.match('./index.html');
+            return caches.match('./index.html') || caches.match('/index.html');
           }
         });
       })
   );
 });
 
-// 4. Menerima sinyal paksa update dari halaman web
+// 4. Menerima sinyal paksa update
 self.addEventListener('message', (event) => {
   if (event.data && event.data.action === 'skipWaiting') {
     self.skipWaiting();
