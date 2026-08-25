@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1280" width="720" height="1280">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="30%" r="90%">
+      <stop offset="0%" stop-color="#1e1035"/>
+      <stop offset="50%" stop-color="#0e0b16"/>
+      <stop offset="100%" stop-color="#050508"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="50%" stop-color="#facc15"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="aurora" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="720" height="1280" fill="url(#bgGrad)"/>
+  
+  <!-- Header Aurora Bar -->
+  <rect x="0" y="0" width="720" height="6" fill="url(#aurora)"/>
+
+  <!-- Center Mobile Card -->
+  <g transform="translate(40, 80)">
+    <rect width="640" height="1120" rx="36" fill="#12111a" stroke="#2d224d" stroke-width="2"/>
+    
+    <!-- Profile Avatar Frame -->
+    <g transform="translate(250, 60)">
+      <rect width="140" height="140" rx="42" fill="#09090b" stroke="url(#aurora)" stroke-width="4"/>
+      <!-- Cat Vector -->
+      <g transform="translate(20, 15) scale(0.8)" fill="#ffffff">
+        <path d="M 60 17 C 52 17, 46 19.5, 42 24 C 39.5 21.5, 35 17.5, 32 17.5 C 27.5 17.5, 26 23, 29 29.5 C 24.5 33.5, 22.5 39.5, 22.5 45.5 C 22.5 59.5, 35.5 71, 60 71 C 84.5 71, 97.5 59.5, 97.5 45.5 C 97.5 39.5, 95.5 33.5, 91 29.5 C 94 23, 92.5 17.5, 88 17.5 C 85 17.5, 80.5 21.5, 78 24 C 74 19.5, 68 17, 60 17 Z"/>
+        <path d="M 60 76.5 C 43 76.5, 29.5 90, 29.5 106.5 C 29.5 113, 31.5 118, 36 121 C 39.5 123, 44 122, 45.5 118 C 47 112.5, 45 107, 40.5 104 C 38 102.5, 40.5 98.5, 44 98.5 C 48.5 98.5, 54 100.5, 56.5 102.5 C 60 106, 60 110.5, 59 114 C 58 117.5, 55.5 121, 51.5 123 C 54.5 124, 57.5 124.5, 60 124.5 C 77.5 124.5, 91.5 110.5, 91.5 93.5 C 91.5 76.5, 77.5 76.5, 60 76.5 Z"/>
+      </g>
+      <!-- Golden Verified Badge -->
+      <circle cx="125" cy="125" r="18" fill="url(#gold)"/>
+      <path d="M118 125 L123 130 L132 120" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- Name & Badge -->
+    <text x="320" y="250" fill="#ffffff" font-size="32" font-family="system-ui, sans-serif" font-weight="800" text-anchor="middle">M Naufal Amrullah</text>
+    <g transform="translate(195, 270)">
+      <rect width="250" height="28" rx="14" fill="#f59e0b22" stroke="#f59e0b66" stroke-width="1"/>
+      <text x="125" y="19" fill="#fde047" font-size="12" font-family="system-ui, sans-serif" font-weight="700" text-anchor="middle">✦ OFFICIAL VERIFIED HUB</text>
+    </g>
+    <text x="320" y="335" fill="#a1a1aa" font-size="14" font-family="monospace" text-anchor="middle">@mnaufala • mnaufalaMNA</text>
+
+    <!-- Social Link Cards Mockup Mobile -->
+    <g transform="translate(40, 390)">
+      <!-- YouTube -->
+      <rect width="560" height="68" rx="20" fill="#181824" stroke="#ffffff15"/>
+      <circle cx="45" cy="34" r="18" fill="#ef4444"/>
+      <text x="80" y="40" fill="#ffffff" font-size="16" font-family="system-ui" font-weight="700">Official YouTube Channel</text>
+      <text x="515" y="40" fill="#a855f7" font-size="16" font-family="system-ui">➔</text>
+    </g>
+    <g transform="translate(40, 475)">
+      <!-- Roblox -->
+      <rect width="560" height="68" rx="20" fill="#181824" stroke="#ffffff15"/>
+      <circle cx="45" cy="34" r="18" fill="#10b981"/>
+      <text x="80" y="40" fill="#ffffff" font-size="16" font-family="system-ui" font-weight="700">Roblox Metaverse Profile</text>
+      <text x="515" y="40" fill="#a855f7" font-size="16" font-family="system-ui">➔</text>
+    </g>
+    <g transform="translate(40, 560)">
+      <!-- GitHub -->
+      <rect width="560" height="68" rx="20" fill="#181824" stroke="#ffffff15"/>
+      <circle cx="45" cy="34" r="18" fill="#6366f1"/>
+      <text x="80" y="40" fill="#ffffff" font-size="16" font-family="system-ui" font-weight="700">GitHub Developer Profile</text>
+      <text x="515" y="40" fill="#a855f7" font-size="16" font-family="system-ui">➔</text>
+    </g>
+    <g transform="translate(40, 645)">
+      <!-- Instagram -->
+      <rect width="560" height="68" rx="20" fill="#181824" stroke="#ffffff15"/>
+      <circle cx="45" cy="34" r="18" fill="#ec4899"/>
+      <text x="80" y="40" fill="#ffffff" font-size="16" font-family="system-ui" font-weight="700">Instagram Official</text>
+      <text x="515" y="40" fill="#a855f7" font-size="16" font-family="system-ui">➔</text>
+    </g>
+    <g transform="translate(40, 730)">
+      <!-- TikTok -->
+      <rect width="560" height="68" rx="20" fill="#181824" stroke="#ffffff15"/>
+      <circle cx="45" cy="34" r="18" fill="#38bdf8"/>
+      <text x="80" y="40" fill="#ffffff" font-size="16" font-family="system-ui" font-weight="700">TikTok @oneberry.mnaufala</text>
+      <text x="515" y="40" fill="#a855f7" font-size="16" font-family="system-ui">➔</text>
+    </g>
+    <g transform="translate(40, 815)">
+      <!-- Google Sites -->
+      <rect width="560" height="68" rx="20" fill="#181824" stroke="#ffffff15"/>
+      <circle cx="45" cy="34" r="18" fill="#f59e0b"/>
+      <text x="80" y="40" fill="#ffffff" font-size="16" font-family="system-ui" font-weight="700">Google Sites Portfolio</text>
+      <text x="515" y="40" fill="#a855f7" font-size="16" font-family="system-ui">➔</text>
+    </g>
+  </g>
+</svg>
