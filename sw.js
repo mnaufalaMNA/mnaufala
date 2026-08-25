@@ -10,6 +10,8 @@ const STATIC_ASSETS = [
   './404.html',
   './manifest.json',
   './icon.svg',
+  './icon-192.png',
+  './icon-512.png',
   './screenshot-desktop.svg',
   './screenshot-mobile.svg',
   './robots.txt',
