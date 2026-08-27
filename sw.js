@@ -1,6 +1,6 @@
-// Service Worker Versi Cerdas & Auto-Update
-const CACHE_NAME = 'mnaufala-hub-v2.6';
-const ASSETS = [
+// Service Worker Versi Cerdas & Auto-Update Ekosistem M Naufal Amrullah
+const CACHE_NAME = 'mnaufala-hub-v3.0';
+const CORE_ASSETS = [
   './',
   './index.html',
   './manifest.json',
@@ -8,25 +8,27 @@ const ASSETS = [
   './icon-192.png',
   './icon-512.png',
   './robots.txt',
-  './sitemap.xml'
+  './sitemap.xml',
+  './404.html'
 ];
 
-// Install Event
+// Install Event - Pre-cache aset utama
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(ASSETS);
+      return cache.addAll(CORE_ASSETS);
     }).then(() => self.skipWaiting())
   );
 });
 
-// Activate Event - Hapus cache usang secara bersih
+// Activate Event - Bersihkan cache usang
 self.addEventListener('activate', (event) => {
   event.waitUntil(
-    caches.keys().then((keys) => {
+    caches.keys().then((keyList) => {
       return Promise.all(
-        keys.map((key) => {
+        keyList.map((key) => {
           if (key !== CACHE_NAME) {
+            console.log('[Service Worker] Menghapus cache versi lama:', key);
             return caches.delete(key);
           }
         })
@@ -35,31 +37,31 @@ self.addEventListener('activate', (event) => {
   );
 });
 
-// Fetch Event - Network First with Cache Fallback for Live Sync
+// Fetch Event - Network First with Cache Fallback
 self.addEventListener('fetch', (event) => {
-  // Hanya proses request GET
   if (event.request.method !== 'GET') return;
 
   event.respondWith(
     fetch(event.request)
       .then((networkResponse) => {
-        // Simpan salinan baru ke cache jika respons valid
         if (networkResponse && networkResponse.status === 200 && networkResponse.type === 'basic') {
-          const responseToCache = networkResponse.clone();
+          const responseClone = networkResponse.clone();
           caches.open(CACHE_NAME).then((cache) => {
-            cache.put(event.request, responseToCache);
+            cache.put(event.request, responseClone);
           });
         }
         return networkResponse;
       })
       .catch(() => {
-        // Jika offline, ambil dari cache
-        return caches.match(event.request);
+        return caches.match(event.request).then((cachedResponse) => {
+          if (cachedResponse) return cachedResponse;
+          if (event.request.mode === 'navigate') return caches.match('./index.html');
+        });
       })
   );
 });
 
-// Message Event untuk auto refresh
+// Message Listener untuk sinkronisasi pembaruan
 self.addEventListener('message', (event) => {
   if (event.data && event.data.action === 'skipWaiting') {
     self.skipWaiting();
