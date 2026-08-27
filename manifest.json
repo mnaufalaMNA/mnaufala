@@ -1,8 +1,9 @@
 {
   "name": "M Naufal Amrullah Official Ecosystem Hub",
   "short_name": "MNaufalA Hub",
-  "description": "Menempa ide di antara sunyi, merajut masa depan di balik baris kode & semesta logika. Portal resmi M Naufal Amrullah.",
+  "description": "Menempa ide di antara sunyi, merajut masa depan di balik baris kode & semesta logika. Portal resmi ekosistem M Naufal Amrullah.",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#07070b",
   "theme_color": "#07070b",
@@ -18,7 +19,7 @@
       "purpose": "any"
     },
     {
-      "src": "icon-192-maskable.png",
+      "src": "icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
@@ -30,7 +31,7 @@
       "purpose": "any"
     },
     {
-      "src": "icon-512-maskable.png",
+      "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
@@ -46,22 +47,29 @@
     {
       "name": "YouTube Official",
       "short_name": "YouTube",
-      "description": "Buka Channel YouTube Resmi",
+      "description": "Buka Channel YouTube Resmi M Naufal Amrullah",
       "url": "https://www.youtube.com/@mnaufalamna",
       "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
     },
     {
       "name": "Roblox Official",
       "short_name": "Roblox",
-      "description": "Buka Profil Roblox Resmi",
+      "description": "Buka Profil Roblox Resmi M Naufal Amrullah",
       "url": "https://www.roblox.com/share?code=3b2075535122cb47814b7bbaf1153723&type=Profile",
       "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
     },
     {
-      "name": "GitHub Portal",
+      "name": "GitHub Master",
       "short_name": "GitHub",
-      "description": "Buka Repositori GitHub Master",
+      "description": "Buka Repositori GitHub Resmi",
       "url": "https://github.com/mnaufalaMNA",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "SkinApe VIP",
+      "short_name": "SkinApe",
+      "description": "Klaim Hadiah SkinApe VIP",
+      "url": "https://join.skinape.com/731FMAIA",
       "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
     }
   ]
