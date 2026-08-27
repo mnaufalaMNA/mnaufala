@@ -1,5 +1,5 @@
-title: M Naufal Amrullah Ecosystem
-description: Official Global Portfolio & Web Hub
 theme: jekyll-theme-cayman
-plugins:
-  - jekyll-sitemap
+title: M Naufal Amrullah Official Hub
+description: Official Global Ecosystem Hub
+include:
+  - .well-known
