@@ -1,9 +1,10 @@
-# 🤝 Panduan Kontribusi
+# Panduan Berkontribusi
 
-Terima kasih atas minat Anda untuk berkontribusi pada pengembangan ekosistem resmi M Naufal Amrullah.
+Terima kasih atas minat Anda untuk berkontribusi pada ekosistem M Naufal Amrullah!
 
-1. Fork repositori ini.
+## Cara Berkontribusi
+1. Fork repositori ini: `https://github.com/mnaufalaMNA/mnaufala`.
 2. Buat branch baru untuk fitur Anda (`git checkout -b fitur-baru`).
-3. Lakukan commit perubahan Anda (`git commit -m 'Menambahkan fitur'`).
+3. Lakukan commit perubahan Anda (`git commit -m 'Menambahkan pembaruan'`).
 4. Push ke branch Anda (`git push origin fitur-baru`).
-5. Buat Pull Request baru untuk ditinjau.
+5. Buka **Pull Request**.
