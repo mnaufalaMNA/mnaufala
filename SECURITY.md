@@ -1,7 +1,20 @@
-# 🛡️ Kebijakan Keamanan (Security Policy)
+# Security Policy
 
-## Versi yang Didukung
-Seluruh rilis aktif pada portal web GitHub Pages `https://mnaufalamna.github.io/mnaufala/`.
+## Supported Versions
 
-## Melaporkan Kerentanan
-Jika Anda menemukan potensi celah keamanan atau bug pada ekosistem ini, silakan sampaikan laporan melalui GitHub Issues atau hubungi tim pengembang di kanal media sosial resmi.
+Kami secara aktif memantau dan memperbarui ekosistem resmi:
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 3.x     | :white_check_mark: |
+| 2.x     | :white_check_mark: |
+| 1.x     | :x:                |
+
+## Reporting a Vulnerability
+
+Jika Anda menemukan celah keamanan pada tautan atau kode ekosistem ini, silakan hubungi langsung:
+- **Email**: `onova1135@gmail.com`
+- **Instagram**: [@mnaufala_mna](https://www.instagram.com/mnaufala_mna/)
+- **X (Twitter)**: [@oneberry_mna](https://x.com/oneberry_mna)
+
+Laporan akan ditinjau dan diperbaiki dalam kurun waktu 1x24 jam.
