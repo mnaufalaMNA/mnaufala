@@ -1,31 +1,15 @@
 {
-  "id": "https://mnaufalamna.github.io/mnaufala/",
-  "name": "M Naufal Amrullah Official Hub",
-  "short_name": "MNaufalA",
-  "description": "Official Global Ecosystem & Verified Hub for M Naufal Amrullah (@mnaufala, @mnaufala_mna, mnaufalaMNA, oneberry.mnaufala). Developer portfolio, social gateway, direct contact & verified web ecosystem.",
-  "start_url": "https://mnaufalamna.github.io/mnaufala/",
-  "scope": "https://mnaufalamna.github.io/mnaufala/",
+  "name": "M Naufal Amrullah Official Ecosystem Hub",
+  "short_name": "MNaufalA Hub",
+  "description": "Menempa ide di antara sunyi, merajut masa depan di balik baris kode & semesta logika. Portal resmi M Naufal Amrullah.",
+  "start_url": "./index.html",
   "display": "standalone",
-  "display_override": [
-    "window-controls-overlay",
-    "standalone",
-    "minimal-ui",
-    "browser"
-  ],
-  "background_color": "#09090b",
-  "theme_color": "#09090b",
+  "background_color": "#07070b",
+  "theme_color": "#07070b",
   "orientation": "portrait-primary",
   "lang": "id",
   "dir": "ltr",
-  "prefer_related_applications": false,
-  "iarc_rating_id": "e58c174a-60bd-44c1-923f-e77a2a0ff398",
-  "categories": [
-    "productivity",
-    "social",
-    "developer",
-    "utilities",
-    "personalization"
-  ],
+  "categories": ["social", "personalization", "utilities", "productivity"],
   "icons": [
     {
       "src": "icon-192.png",
@@ -34,7 +18,7 @@
       "purpose": "any"
     },
     {
-      "src": "icon-192.png",
+      "src": "icon-192-maskable.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
@@ -46,7 +30,7 @@
       "purpose": "any"
     },
     {
-      "src": "icon-512.png",
+      "src": "icon-512-maskable.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
@@ -56,215 +40,29 @@
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any"
-    },
-    {
-      "src": "icon.svg",
-      "sizes": "512x512",
-      "type": "image/svg+xml",
-      "purpose": "maskable"
-    }
-  ],
-  "screenshots": [
-    {
-      "src": "screenshot-desktop.svg",
-      "sizes": "1280x720",
-      "type": "image/svg+xml",
-      "form_factor": "wide",
-      "label": "M Naufal Amrullah Official Hub Desktop Showcase"
-    },
-    {
-      "src": "screenshot-mobile.svg",
-      "sizes": "720x1280",
-      "type": "image/svg+xml",
-      "form_factor": "narrow",
-      "label": "M Naufal Amrullah Official Hub Mobile Experience"
     }
   ],
   "shortcuts": [
     {
-      "name": "YouTube Official Channel",
+      "name": "YouTube Official",
       "short_name": "YouTube",
-      "description": "Buka kanal resmi YouTube @mnaufalamna",
+      "description": "Buka Channel YouTube Resmi",
       "url": "https://www.youtube.com/@mnaufalamna",
-      "icons": [
-        {
-          "src": "icon-192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
     },
     {
-      "name": "Instagram Official",
-      "short_name": "Instagram",
-      "description": "Instagram @mnaufala_mna",
-      "url": "https://www.instagram.com/mnaufala_mna",
-      "icons": [
-        {
-          "src": "icon-192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
-    },
-    {
-      "name": "TikTok Official",
-      "short_name": "TikTok",
-      "description": "TikTok @oneberry.mnaufala",
-      "url": "https://www.tiktok.com/@oneberry.mnaufala",
-      "icons": [
-        {
-          "src": "icon-192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
-    },
-    {
-      "name": "X (Twitter) Official",
-      "short_name": "X (Twitter)",
-      "description": "X @oneberry_mna",
-      "url": "https://x.com/oneberry_mna",
-      "icons": [
-        {
-          "src": "icon-192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
-    },
-    {
-      "name": "Threads Official",
-      "short_name": "Threads",
-      "description": "Threads @mnaufala_mna",
-      "url": "https://www.threads.com/@mnaufala_mna",
-      "icons": [
-        {
-          "src": "icon-192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
-    },
-    {
-      "name": "Facebook Profile 1",
-      "short_name": "Facebook 1",
-      "description": "Profil Facebook Resmi 1",
-      "url": "https://www.facebook.com/share/1HdLiJComv/",
-      "icons": [
-        {
-          "src": "icon-192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
-    },
-    {
-      "name": "Facebook Profile 2",
-      "short_name": "Facebook 2",
-      "description": "Profil Facebook Resmi 2",
-      "url": "https://www.facebook.com/share/19v4QgccfR/",
-      "icons": [
-        {
-          "src": "icon-192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
-    },
-    {
-      "name": "Roblox Official Profile",
+      "name": "Roblox Official",
       "short_name": "Roblox",
-      "description": "Koneksi profil resmi Roblox Metaverse",
-      "url": "https://www.roblox.com/share?code=0ed2af83dfa9b540bbba78010f86da81&type=Profile&source=ProfileShare&stamp=1787394507909",
-      "icons": [
-        {
-          "src": "icon-192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
+      "description": "Buka Profil Roblox Resmi",
+      "url": "https://www.roblox.com/share?code=3b2075535122cb47814b7bbaf1153723&type=Profile",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
     },
     {
-      "name": "SkinApe Official Referral",
-      "short_name": "SkinApe",
-      "description": "Link Resmi SkinApe",
-      "url": "https://join.skinape.com/731FMAIA",
-      "icons": [
-        {
-          "src": "icon-192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
-    },
-    {
-      "name": "GitHub Developer Profile",
+      "name": "GitHub Portal",
       "short_name": "GitHub",
-      "description": "Akses repositori & profil GitHub (mnaufalaMNA)",
+      "description": "Buka Repositori GitHub Master",
       "url": "https://github.com/mnaufalaMNA",
-      "icons": [
-        {
-          "src": "icon-192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
-    },
-    {
-      "name": "Bitly Universal Gateway",
-      "short_name": "Bitly",
-      "description": "Universal shortlink gateway",
-      "url": "https://bit.ly/m/MNaufalA",
-      "icons": [
-        {
-          "src": "icon-192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
-    },
-    {
-      "name": "Google Sites Portfolio",
-      "short_name": "Sites",
-      "description": "Portfolio resmi di Google Sites",
-      "url": "https://sites.google.com/view/mnaufala/mnaufala",
-      "icons": [
-        {
-          "src": "icon-192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
-    },
-    {
-      "name": "Google Profile Beranda",
-      "short_name": "Google Profile",
-      "description": "Profil Google Sites Beranda",
-      "url": "https://sites.google.com/view/mnaufalmna/beranda",
-      "icons": [
-        {
-          "src": "icon-192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        }
-      ]
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
     }
-  ],
-  "share_target": {
-    "action": "https://mnaufalamna.github.io/mnaufala/",
-    "method": "GET",
-    "params": {
-      "title": "title",
-      "text": "text",
-      "url": "url"
-    }
-  },
-  "handle_links": "preferred",
-  "launch_handler": {
-    "client_mode": "auto"
-  },
-  "edge_side_panel": {
-    "preferred_width": 400
-  }
+  ]
 }
