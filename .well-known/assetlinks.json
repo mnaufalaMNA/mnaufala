@@ -1,14 +1,11 @@
 [
   {
-    "relation": [
-      "delegate_permission/common.handle_all_urls"
-    ],
+    "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.mnaufala.hub",
+      "package_name": "io.github.mnaufalamna.mnaufala.twa",
       "sha256_cert_fingerprints": [
-        "72:A4:96:E7:8C:F1:28:5C:B4:9C:E8:97:90:B9:37:CF:3B:EB:69:3D:16:3A:4C:9E:AA:1A:87:B3:4E:7F:9C:07",
-        "14:6D:E9:01:F8:85:7E:02:CE:0E:64:28:7E:69:8A:CE:06:77:42:93:45:B6:76:7F:48:94:4B:CF:82:9F:87:4D"
+        "14:6D:E9:01:F8:85:7E:0E:12:F8:3E:EE:26:4E:DD:96:A2:18:23:4B:9B:F3:33:04:E2:E0:4F:9C:FA:DC:82:17"
       ]
     }
   }
