@@ -1,27 +1,25 @@
-name: ⚡ Google Lighthouse & SEO Audit
+name: Lighthouse Audit & Web Quality Check
 
 on:
-  schedule:
-    - cron: '0 0 * * 1' # Berjalan otomatis setiap hari Senin pukul 00:00 UTC
+  push:
+    branches:
+      - mnaufala
+      - main
   workflow_dispatch:
-
-permissions:
-  contents: read
 
 jobs:
   audit:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
-      - name: 🔍 Checkout Repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: 🚀 Audit Live Site URL
-        run: |
-          echo "Memeriksa ketersediaan portal: https://mnaufalamna.github.io/mnaufala/"
-          STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" https://mnaufalamna.github.io/mnaufala/)
-          echo "Status Respon HTTP: $STATUS_CODE"
-          if [ "$STATUS_CODE" -eq 200 ]; then
-            echo "✅ Portal Resmi Berjalan 100% Normal & Optimal!"
-          else
-            echo "⚠️ Peringatan: Status HTTP adalah $STATUS_CODE"
-          fi
+      - name: Audit Website via Lighthouse
+        uses: treosh/lighthouse-ci-action@v12
+        with:
+          urls: |
+            https://mnaufalamna.github.io/mnaufala/
+          uploadArtifacts: true
+          temporaryPublicStorage: true
