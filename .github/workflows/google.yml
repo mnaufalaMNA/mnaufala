@@ -1,37 +1,21 @@
-name: Google Search Console Sitemap & SEO Ping
+name: Google & Bing Search Indexing Ping
 
 on:
   push:
     branches:
       - mnaufala
-      - mnaufala_mna
-      - mnaufalamna
       - main
-  schedule:
-    - cron: '0 6 * * 1'
   workflow_dispatch:
 
-permissions:
-  contents: read
-
 jobs:
-  seo_ping:
-    name: SEO & Sitemap Health Check
+  ping-search-engines:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
-
-      - name: Verify SEO Files
+      - name: Ping Google Sitemaps
         run: |
-          echo "Memeriksa sitemap.xml dan robots.txt..."
-          test -f sitemap.xml || (echo "Error: sitemap.xml tidak ditemukan!" && exit 1)
-          test -f robots.txt || (echo "Error: robots.txt tidak ditemukan!" && exit 1)
-          echo "✅ Semua berkas SEO valid!"
-
-      - name: Ping Search Engines
+          curl -s "https://www.google.com/ping?sitemap=https://mnaufalamna.github.io/mnaufala/sitemap.xml" || true
+      - name: Ping Bing Sitemaps
         run: |
-          echo "Mengirim notifikasi sitemap ke Google & Bing..."
-          curl -s -I "https://www.google.com/ping?sitemap=https://mnaufalamna.github.io/mnaufala/sitemap.xml" || true
-          curl -s -I "https://www.bing.com/ping?sitemap=https://mnaufalamna.github.io/mnaufala/sitemap.xml" || true
-          echo "✅ Berhasil ping Google & Bing!"
+          curl -s "https://www.bing.com/ping?sitemap=https://mnaufalamna.github.io/mnaufala/sitemap.xml" || true
