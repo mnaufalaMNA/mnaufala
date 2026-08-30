@@ -1,8 +1,8 @@
-name: Mark Stale Issues
+name: Mark Inactive Issues and PRs
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '30 1 * * *'
   workflow_dispatch:
 
 permissions:
@@ -12,11 +12,16 @@ permissions:
 jobs:
   stale:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
-      - uses: actions/stale@v9
+      - name: Manage Stale Issues
+        uses: actions/stale@v9
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          stale-issue-message: 'Isu ini ditandai sebagai stale karena tidak ada aktivitas selama 60 hari.'
-          stale-pr-message: 'Pull Request ini ditandai sebagai stale karena tidak ada aktivitas selama 60 hari.'
+          stale-issue-message: 'Issue ini ditandai tidak aktif karena tidak ada aktivitas selama 60 hari.'
+          stale-pr-message: 'Pull Request ini ditandai tidak aktif karena tidak ada aktivitas selama 60 hari.'
+          stale-issue-label: 'no-activity'
+          stale-pr-label: 'no-activity'
           days-before-stale: 60
           days-before-close: 7
