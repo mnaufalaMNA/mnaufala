@@ -1,4 +1,4 @@
-name: Ecosystem Greetings Bot
+name: Welcome Greetings
 
 on:
   issues:
@@ -13,10 +13,12 @@ permissions:
 jobs:
   greeting:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
-      - name: Greet Contributor
+      - name: Send Welcome Message
         uses: actions/first-interaction@v1
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: 'Halo! Terima kasih telah menyampaikan masukan di ekosistem resmi M Naufal Amrullah (@mnaufala).'
-          pr-message: 'Terima kasih atas kontribusi Anda pada ekosistem M Naufal Amrullah (@mnaufala).'
+          issue-message: 'Halo @${{ github.actor }}! Terima kasih telah membuka issue di portal ekosistem resmi M Naufal Amrullah. Kami akan segera meninjaunya.'
+          pr-message: 'Halo @${{ github.actor }}! Terima kasih atas kontribusi Pull Request Anda ke ekosistem M Naufal Amrullah.'
