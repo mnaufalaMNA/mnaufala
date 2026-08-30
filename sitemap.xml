@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://mnaufalamna.github.io/mnaufala/</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://mnaufalamna.github.io/mnaufala/index.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://mnaufalamna.github.io/mnaufala/404.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
+    <image:image>
+      <image:loc>https://mnaufalamna.github.io/mnaufala/icon-512.png</image:loc>
+      <image:title>M Naufal Amrullah Official Ecosystem Hub</image:title>
+      <image:caption>Official Global Ecosystem Portal of M Naufal Amrullah (@mnaufala / @mnaufala_mna)</image:caption>
+    </image:image>
   </url>
 </urlset>
