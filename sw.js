@@ -1,5 +1,5 @@
 // Service Worker Versi Cerdas & Auto-Update Ekosistem M Naufal Amrullah
-const CACHE_NAME = 'mnaufala-hub-v3.0';
+const CACHE_NAME = 'mnaufala-hub-v3.1';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -7,6 +7,9 @@ const CORE_ASSETS = [
   './icon.svg',
   './icon-192.png',
   './icon-512.png',
+  './foto-profil.jpg',
+  './screenshot-desktop.svg',
+  './screenshot-mobile.svg',
   './robots.txt',
   './sitemap.xml',
   './404.html'
@@ -40,7 +43,6 @@ self.addEventListener('activate', (event) => {
 // Fetch Event - Network First with Cache Fallback
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
-
   event.respondWith(
     fetch(event.request)
       .then((networkResponse) => {
