@@ -3,9 +3,14 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://mnaufalamna.github.io/mnaufala/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-09-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://mnaufalamna.github.io/mnaufala/foto-profil.jpg</image:loc>
+      <image:title>Foto Resmi M Naufal Amrullah</image:title>
+      <image:caption>Foto Profil Resmi M Naufal Amrullah (@mnaufala / @mnaufala_mna)</image:caption>
+    </image:image>
     <image:image>
       <image:loc>https://mnaufalamna.github.io/mnaufala/icon-512.png</image:loc>
       <image:title>M Naufal Amrullah Official Ecosystem Hub</image:title>
