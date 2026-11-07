@@ -11,8 +11,7 @@
 
 ## 🌐 15 Official Verified Channels & Ecosystem Links
 
-1. 🎥 **YouTube Official Channel**: [@mnaufalamna](https://www.youtube.com/@mnaufalamna)
-2. 🎮 **Roblox Official Profile**: [Roblox Profile](https://www.roblox.com/share?code=3b2075535122cb47814b7bbaf1153723&type=Profile)
+1. 🎥 **YouTube Official Channel**: [@mnaufalamna].(https://www.youtube.com/@mnaufalamna)
 3. 💻 **GitHub Master Profile**: [@mnaufalaMNA](https://github.com/mnaufalaMNA)
 4. 📦 **GitHub Repository Portal**: [mnaufalaMNA/mnaufala](https://github.com/mnaufalaMNA/mnaufala)
 5. 🌐 **Official Web Ecosystem**: [mnaufalamna.github.io/mnaufala](https://mnaufalamna.github.io/mnaufala/)
@@ -25,7 +24,6 @@
 12. 🎵 **TikTok Official Channel**: [@oneberry.mnaufala](https://www.tiktok.com/@oneberry.mnaufala)
 13. 🐦 **X (Twitter) Official**: [@oneberry_mna](https://x.com/oneberry_mna)
 14. 🧵 **Threads Meta Official**: [@mnaufala_mna](https://www.threads.net/@mnaufala_mna)
-15. 🎁 **SkinApe Gaming Rewards**: [join.skinape.com/731FMAIA](https://join.skinape.com/731FMAIA) *(VIP Code: `731FMAIA`)*
 
 ---
 
