@@ -49,13 +49,6 @@
   <img src="https://img.shields.io/badge/Handle-@oneberry.mnaufala-1e1b4b?style=flat-square&logo=tiktok&logoColor=a855f7" alt="Handle 4"/>
 </p>
 
-<br/>
-
-<!-- Ultra-Reliable GitHub Dynamic Activity Card -->
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=mnaufalaMNA&theme=tokyonight&hide_border=true&background=0D1117&ring=A855F7&fire=EC4899&currStreakLabel=A855F7&sideNums=38BDF8&sideLabels=94A3B8&dates=64748B" alt="GitHub Streak Stats" />
-</p>
-
 </div>
 
 ---
@@ -65,7 +58,7 @@
 <div align="center">
 
 | Kategori | Platform | Gateway / Identifier | Akses & Status |
-| :---: | :--- | :--- | :---: |
+| :---: | :--- | :--- | :--- |
 | 🌐 **Core** | **Official Web Portal** | `mnaufalamna.github.io/mnaufala` | [![Akses Portal](https://img.shields.io/badge/Launch%20Portal-8b5cf6?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mnaufalamna.github.io/mnaufala/) |
 | ⚡ **Core** | **Universal Bio Link** | `bit.ly/m/MNaufalA` | [![Buka Gateway](https://img.shields.io/badge/Open%20Gateway-f59e0b?style=for-the-badge&logo=linkfire&logoColor=white)](https://bit.ly/m/MNaufalA) |
 | 📺 **Media** | **YouTube Official** | `@mnaufalamna` | [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@mnaufalamna) |
