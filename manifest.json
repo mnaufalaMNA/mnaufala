@@ -1,8 +1,8 @@
 {
   "id": "https://mnaufalamna.github.io/mnaufala/",
-  "name": "M Naufal Amrullah Official Ecosystem Hub",
-  "short_name": "MNaufala",
-  "description": "Menempa ide di antara sunyi, merajut masa depan di balik baris kode & semesta logika. Portal resmi ekosistem M Naufal Amrullah (@mnaufala, @mnaufala_mna, mnaufalaMNA, oneberry.mnaufala).",
+  "name": "M Naufal Amrullah Official Hub",
+  "short_name": "MNaufalA",
+  "description": "Official Global Ecosystem & Verified Hub for M Naufal Amrullah (mnaufala, mnaufala_mna, mnaufalaMNA, oneberry.mnaufala). Developer portfolio, social gateway, direct contact & verified web ecosystem.",
   "start_url": "https://mnaufalamna.github.io/mnaufala/",
   "scope": "https://mnaufalamna.github.io/mnaufala/",
   "display": "standalone",
@@ -12,23 +12,19 @@
     "minimal-ui",
     "browser"
   ],
-  "background_color": "#07070b",
-  "theme_color": "#07070b",
-  "orientation": "any",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "orientation": "portrait-primary",
   "lang": "id",
   "dir": "ltr",
+  "prefer_related_applications": false,
+  "iarc_rating_id": "e58c174a-60bd-44c1-923f-e77a2a0ff398",
   "categories": [
     "productivity",
     "social",
     "developer",
     "utilities",
     "personalization"
-  ],
-  "iarc_rating_id": "e58c174a-60bd-44c1-923f-e77a2a0ff398",
-  "scope_extensions": [
-    {
-      "origin": "https://mnaufalamna.github.io"
-    }
   ],
   "icons": [
     {
@@ -125,9 +121,61 @@
       ]
     },
     {
-      "name": "GitHub Repositories",
+      "name": "X (Twitter) Official",
+      "short_name": "X (Twitter)",
+      "description": "X @oneberry_mna",
+      "url": "https://x.com/oneberry_mna",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Threads Official",
+      "short_name": "Threads",
+      "description": "Threads @mnaufala_mna",
+      "url": "https://www.threads.net/@mnaufala_mna",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Facebook Profile 1",
+      "short_name": "Facebook 1",
+      "description": "Profil Facebook Resmi 1",
+      "url": "https://www.facebook.com/share/1HdLiJComv/",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Facebook Profile 2",
+      "short_name": "Facebook 2",
+      "description": "Profil Facebook Resmi 2",
+      "url": "https://www.facebook.com/share/19v4QgccfR/",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "GitHub Developer Profile",
       "short_name": "GitHub",
-      "description": "GitHub @mnaufalaMNA",
+      "description": "Akses repositori & profil GitHub (mnaufalaMNA)",
       "url": "https://github.com/mnaufalaMNA",
       "icons": [
         {
@@ -136,6 +184,61 @@
           "type": "image/png"
         }
       ]
+    },
+    {
+      "name": "Bitly Universal Gateway",
+      "short_name": "Bitly",
+      "description": "Universal shortlink gateway",
+      "url": "https://bit.ly/m/MNaufalA",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Google Sites Portfolio",
+      "short_name": "Sites",
+      "description": "Portfolio resmi di Google Sites",
+      "url": "https://sites.google.com/view/mnaufala/mnaufala",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Google Profile Beranda",
+      "short_name": "Google Profile",
+      "description": "Profil Google Sites Beranda",
+      "url": "https://sites.google.com/view/mnaufalmna/beranda",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     }
-  ]
+  ],
+  "share_target": {
+    "action": "https://mnaufalamna.github.io/mnaufala/",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "handle_links": "preferred",
+  "launch_handler": {
+    "client_mode": "auto"
+  },
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
 }
